@@ -18,10 +18,13 @@
 .sectionTitle {
     width: 100%;
     height: 100%;
+    background: #1200008f;
+    max-width: 300px;
+    max-height: 150px;
+    border: 1px #F40000 solid;
     font-family: "Kanit", sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    background: #f800002e;
     color: #fff;
     display: flex;
     justify-content: center;
