@@ -10,7 +10,6 @@
 body{
   margin: 0;
   background-color: #120000;
-  
 }
 
 
@@ -38,6 +37,7 @@ body{
   position: relative;
   padding: 2%;
 }
+
 .button {
   font-family: 'Kanit', sans-serif;
   font-weight: 300;
@@ -47,6 +47,7 @@ body{
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+  transition: background-color 70ms ease-out 5ms
 }
 .button2 {
   font-family: 'Kanit', sans-serif;
@@ -58,13 +59,17 @@ body{
   color: #fff;
   cursor: pointer;
   max-width: max-content;
+  transition: background-color 70ms ease-out 5ms
+}
+.button2:hover,.button:hover{
+  background-color: #F80000;
 }
 .upperHeading {
   font-family: 'Kanit', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-top: 2rem;
   margin-bottom: -30px;
   color: #fff;
@@ -75,16 +80,23 @@ body{
   font-size: 40px;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin: 2rem 0;
   color: #F80000;
 }
+.heading::after{
+  content:"";
+  border-bottom: #fff 1px solid;
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+}
 .subHeading{
   font-family: 'Kanit', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-top: -30px;
   margin-bottom: 2rem;
   color: #fff;
@@ -94,21 +106,34 @@ body{
 }
 p{
   font-family: 'Kanit', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   color: #fff;
+  text-align: center;
 }
 
 .icon {
-  fill: #F80000;
   position: relative;
-  background-color: #120000;
-  padding: 15px;
+  padding: 12px;
   margin: 10px;
-  width: 20px;
-  height: 20px;
+  /* width: 12px;
+  height: 12px; */
   font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.icon:hover{
+  transform: scale(1.5);
+}
+
+
+@media (max-width: 540px) {
+  .upperHeading, .subHeading {
+    font-size: 12px;
+  }
+  .heading {
+    font-size: 26px;
+  }
 }
