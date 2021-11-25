@@ -204,3 +204,8 @@
       opacity: 1;
     }
   }
+@media (max-width: 800px) {
+  .sliderContainer {
+    overflow-x: auto;
+  }
+}
