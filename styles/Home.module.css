@@ -1,0 +1,35 @@
+.HomeImage {
+    background: url('https://i.postimg.cc/VN9yK5pf/landing-bg.jpg');
+}
+.BigImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    margin-top: 4em;
+    background-size: cover;
+    background-position: center 
+}
+.homeSection {
+    width: 100%;
+    min-height: 600px;
+}
+.sectionTitle {
+    width: 100%;
+    height: 100%;
+    font-family: "Kanit", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background: #f800002e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featuredArtContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

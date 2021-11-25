@@ -1,0 +1,80 @@
+.artistsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 400px;
+    flex: 0 0 400px;
+}
+.artistsContainer .title{
+    margin-bottom: 1em;
+}
+.artistsContainer .heading{
+    margin-bottom: 0;
+    margin-top: 26px;
+}
+
+.Left img{
+    position: absolute;
+    width: 150px;
+    z-index: 9;
+    margin-top: -2em;
+    margin-left:20em;
+}
+.Center img{
+    position:absolute;
+    width: 400px;
+    margin-left: 5%;
+    z-index: 8;
+}
+.Right img{
+    position: absolute;
+    width: 222px;
+    z-index: 9;
+    margin-top: 14em;
+    margin-left: 2em;
+}
+
+.artistActions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist-Icons-Wrapper {
+   display: flex;
+}
+
+@media (max-width: 950px) {
+    .Right,.Left{
+        display: none;
+    }
+    .Center img{
+        margin-left: 0;
+    }
+    .Center img, .ThisSide{
+        position: inherit;
+    }
+}
+@media (max-width: 400px) {
+
+    .Center img{
+        margin-left: 0;
+        width: 300px;
+    }
+}
+@media (max-width: 440px) {
+
+    .Center img{
+        margin-left: 0;
+        width: 300px;
+    }
+    .artistActions{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

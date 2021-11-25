@@ -1,0 +1,21 @@
+.contactContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 400px;
+    flex: 0 0 400px;
+}
+.contactContainer .title{
+    margin-bottom: 1em;
+}
+.contactContainer .heading{
+    margin-bottom: 0;
+    margin-top: 26px;
+}
+.contactActions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
