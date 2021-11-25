@@ -1,7 +1,7 @@
 .artistsContainer{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     min-height: 400px;
     flex: 0 0 400px;
@@ -10,7 +10,7 @@
     margin-bottom: 1em;
 }
 .artistsContainer .heading{
-    margin-bottom: 0;
+    margin-bottom: 1em;
     margin-top: 26px;
 }
 
@@ -55,6 +55,11 @@
     }
     .Center img, .ThisSide{
         position: inherit;
+    }
+    .artistsContainer{
+
+        flex-wrap: wrap;
+
     }
 }
 @media (max-width: 400px) {
