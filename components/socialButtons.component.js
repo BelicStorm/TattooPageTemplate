@@ -15,8 +15,7 @@ export const SocialButtons = ({socialLinks}) => {
                                 <Image
                                     src={img}
                                     alt={socialLink}
-                                    width="20"
-                                    height="20"
+                                    layout='fill'
                                 />
                             </a>
                         </div>
