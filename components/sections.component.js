@@ -10,7 +10,7 @@ const GalerySection = () => {
     return <>
             <SectionTitle image={"HomeImage"}/> 
             <section className="container featuredArtContainer">
-              <Title upper={"Arte seleccionado por nuestros artistas"} center="Arate destacado" sub={"Tattoo & Piercing"}></Title> 
+              <Title upper={"Seleccionado por nuestros artistas"} center="Arate destacado" sub={"Tattoo & Piercing"}></Title> 
               <Galeria/> 
               <Button buttonText="Ver Galería" buttonHref=""/>
             </section>
