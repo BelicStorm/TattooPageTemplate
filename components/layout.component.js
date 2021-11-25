@@ -1,4 +1,5 @@
 import Image from 'next/image' 
+import { SocialButtons } from './socialButtons.component'
 
 const Menu = () => {
     return <header className="header">
@@ -19,7 +20,6 @@ const Menu = () => {
                     </label>
                     <div className="navbar-wrapper">
                         <ul className="menu">
-                            <li className="menu-item"><a href="#about">Arte Destacado</a></li>
                             <li className="menu-item"><a href="#skills">Galeria</a></li>
                             <li className="menu-item"><a href="#portfolio">Artistas</a></li>
                             <li className="menu-item"><a href="#contact">Contactanos</a></li>
@@ -35,36 +35,7 @@ const Menu = () => {
 
 const SocialLinks = () => {
     return <div className="social-Icons-Wrapper">
-            <div className="icon">
-                <a title="Facebook"href="https://www.facebook.com/RagaTattoo/"  target="_blank">
-                    <Image
-                        src={`/media/facebook.svg`}
-                        alt="Facebook"
-                        width="20"
-                        height="20"
-                    />
-                </a>
-            </div>
-            <div className="icon">
-                <a title="Twitter" href="https://twitter.com/TwitterDev"  target="_blank">
-                    <Image
-                        src={`/media/twitter.svg`}
-                        alt="Twitter"
-                        width="20"
-                        height="20"
-                    />
-                </a>
-            </div>
-            <div className="icon">
-                <a title="instagram" href="https://www.instagram.com/ragatattoo/?hl=es" target="_blank">
-                    <Image
-                        src={`/media/instagram.svg`}
-                        alt="Instagram"
-                        width="20"
-                        height="20"
-                    />
-                </a>
-            </div>
+            <SocialButtons socialLinks={["Facebook","Instagram","Twitter"]}   />
         </div>
 }
 const Footer = () => {
@@ -86,7 +57,3 @@ export default function Layout({children}) {
     </>
   )
 }
-
-
-
-
