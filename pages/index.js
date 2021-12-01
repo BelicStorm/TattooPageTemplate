@@ -10,6 +10,10 @@ import {
 export default function Home({ homeImages }) {
   return (
     <Layout>
+      <Head>
+        <title>Raga Tattoo</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="main-wrapper">
         {/* Section 1 */}
         <GalerySection images={homeImages} />
