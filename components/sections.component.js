@@ -17,7 +17,7 @@ const GalerySection = ({ images }) => {
           sub={"Tattoo & Piercing"}
         ></Title>
         <Galeria images={images} />
-        <Button buttonText="Ver Galería" buttonHref="" />
+        <Button buttonText="Ver Galería" buttonHref="/galeria" />
       </section>
     </>
   );
