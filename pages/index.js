@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/layout.component";
+import { getImages } from "../utils/image.utils";
 import {
   ArtistSection,
   ContactSection,
@@ -27,19 +28,12 @@ export default function Home({ homeImages }) {
     </Layout>
   );
 }
-const getImages = async () => {
-  try {
-    const data = await import(`../models/provisional-images.json`);
 
-    return data.images;
-  } catch (err) {
-    console.log(err);
-    return [];
-  }
-};
 export async function getServerSideProps(context) {
-  const images = await getImages();
+  const { images: data } = await import(`../models/provisional-images.json`);
+  const { images } = await getImages(data, 8, 1);
   console.log(images);
+
   return {
     props: {
       homeImages: images
