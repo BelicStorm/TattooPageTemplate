@@ -3,10 +3,10 @@ import { getImages, imageReg } from "../utils/image.utils";
 import ListPaginatedImages from "../components/pagination.component";
 import { Title } from "../components/title.component";
 
-export default function GalleryPage({ data, actualPage }) {
+export default function GalleryPage({ data, actualPage,regs }) {
   return (
-    <Layout>
-      <section className="container ArtContainer">
+    <Layout actual="galeria">
+      <section className="ArtContainer container">
         <Title
           upper={"Todo nuestro arte a tu alcance"}
           center="Galería"
@@ -14,7 +14,7 @@ export default function GalleryPage({ data, actualPage }) {
         <ListPaginatedImages
           data={data}
           actualPage={actualPage}
-          regs={imageReg}
+          regs={regs}
         />
       </section>
     </Layout>
@@ -23,10 +23,9 @@ export default function GalleryPage({ data, actualPage }) {
 
 export async function getServerSideProps({ query, req }) {
   const { images: data } = await import(`../models/provisional-images.json`);
-  const page = query.page ? parseInt(query.page) : 1;
+  let page = query.page ? parseInt(query.page) : 1;
   const actualAmountOfImages = `${page}0`;
   const { images } = await getImages(data, actualAmountOfImages, page);
-  console.log(images);
   /* const host = process.env.host; */
   /* if (images.length === 0) {
     return {
@@ -36,7 +35,8 @@ export async function getServerSideProps({ query, req }) {
   return {
     props: {
       data: images,
-      actualPage: page
+      actualPage: page,
+      regs:imageReg
       /* host: host */
     }
   };

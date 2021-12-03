@@ -13,23 +13,29 @@
     margin-bottom: 1em;
     margin-top: 26px;
 }
+.artistsContainer .upperHeading{
+    margin-top: 0px;
+}
 
 .Left img{
     position: absolute;
-    width: 150px;
+    width: 120px;
     z-index: 9;
+    height: 120px;
     margin-top: -2em;
     margin-left:20em;
 }
 .Center img{
     position:absolute;
     width: 400px;
+    height: 300px;
     margin-left: 5%;
     z-index: 8;
 }
 .Right img{
     position: absolute;
-    width: 222px;
+    width: 120px;
+    height: 120px;
     z-index: 9;
     margin-top: 14em;
     margin-left: 2em;
@@ -72,7 +78,7 @@
 @media (max-width: 440px) {
 
     .Center img{
-        margin-left: 0;
+        margin-left: 10%;
         width: 300px;
     }
     .artistActions{

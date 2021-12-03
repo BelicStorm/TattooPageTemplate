@@ -3,16 +3,16 @@ import { SocialButtons } from "./socialButtons.component"
 import { Title } from "./title.component"
 
 
-const ImageSide = () => {
+const ImageSide = ({ center, left, right}) => {
     return <div className="side iamgeSide">
               <div className="ArtistImage Center ">
-                <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd1c3895999a4f9c5e4ac57e6e9fa2fb&auto=format&fit=crop&w=1950&q=80" alt="forest"/>
+                <img src={center} alt="forest"/>
               </div>
               <div className="ArtistImage Left">
-                <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd1c3895999a4f9c5e4ac57e6e9fa2fb&auto=format&fit=crop&w=1950&q=80" alt="forest"/>
+                <img src={left} alt="forest"/>
               </div>
               <div className="ArtistImage Right">
-                <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd1c3895999a4f9c5e4ac57e6e9fa2fb&auto=format&fit=crop&w=1950&q=80" alt="forest"/>
+                <img src={right} alt="forest"/>
               </div>
             </div>
   }

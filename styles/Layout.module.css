@@ -57,6 +57,19 @@
     border-radius: 2%;
     transition: background-color 70ms ease-out 5ms
 }
+.header .navbar .menu-item-active a {
+  font-family: "Kanit", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: inherit;
+  background-color: #F80000;
+  color: #120000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 2%;
+  transition: background-color 70ms ease-out 5ms
+}
 .header .navbar .menu-item a:hover {
     content: "";
     background-color: #F80000;

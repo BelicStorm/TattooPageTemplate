@@ -1,0 +1,31 @@
+{
+    "artistas":[
+        {"name":"John Doe",
+            "aptitude":{"tattoo":true,"piercing":false},
+            "artistPhoto":"/tatto-test/artist1.jpg",
+            "recomendedWork1":"/tatto-test/2.jpg",
+            "recomendedWork2":"/tatto-test/3.jpg",
+            "description":"Dinamyc description for John Doe",
+            "social":[{"link":"https://www.facebook.com/RagaTattoo/","img":"/media/facebook.svg"},
+                      {"link":"https://www.instagram.com/ragatattoo/?hl=es","img":"/media/instagram.svg"},
+                      {"link":"https://twitter.com/TwitterDev/","img":"/media/twitter.svg"}]},
+        {"name":"Jane Doe",
+            "aptitude":{"tattoo":false,"piercing":true},
+            "artistPhoto":"/tatto-test/artist2.jpg",
+            "recomendedWork1":"/tatto-test/1.jpeg",
+            "recomendedWork2":"/tatto-test/3.jpg",
+            "description":"Dinamyc description for Jane Doe",
+            "social":[{"link":"https://www.facebook.com/RagaTattoo/","img":"/media/facebook.svg"},
+                {"link":"https://www.instagram.com/ragatattoo/?hl=es","img":"/media/instagram.svg"},
+                {"link":"https://twitter.com/TwitterDev/","img":"/media/twitter.svg"}]},
+        {"name":"Foo Bar",
+            "aptitude":{"tattoo":true,"piercing":true},
+            "artistPhoto":"/tatto-test/artist3.jpeg",
+            "recomendedWork1":"/tatto-test/2.jpg",
+            "recomendedWork2":"/tatto-test/4.jpg",
+            "description":"Dinamyc description for Foo Bar",
+            "social":[{"link":"https://www.facebook.com/RagaTattoo/","img":"/media/facebook.svg"},
+                {"link":"https://www.instagram.com/ragatattoo/?hl=es","img":"/media/instagram.svg"},
+                {"link":"https://twitter.com/TwitterDev/","img":"/media/twitter.svg"}]}
+    ]
+}

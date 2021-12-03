@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Layout from "../components/layout.component";
 import { getImages } from "../utils/image.utils";
 import {
@@ -8,18 +7,14 @@ import {
   ShopSection
 } from "../components/sections.component";
 
-export default function Home({ homeImages }) {
+export default function Home({ homeImages,homeArtists }) {
   return (
-    <Layout>
-      <Head>
-        <title>Raga Tattoo</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
+    <Layout actual="home">
       <div className="main-wrapper">
         {/* Section 1 */}
         <GalerySection images={homeImages} />
         {/* Section 2 */}
-        <ArtistSection />
+        <ArtistSection artists={homeArtists} />
         {/* Section 3 */}
         <ContactSection />
         {/* Section 4 */}
@@ -30,13 +25,15 @@ export default function Home({ homeImages }) {
 }
 
 export async function getServerSideProps(context) {
-  const { images: data } = await import(`../models/provisional-images.json`);
-  const { images } = await getImages(data, 8, 1);
-  console.log(images);
+  const { images: imagesData } = await import(`../models/provisional-images.json`);
+  const { artistas } = await import(`../models/provisional-artists.json`);
+  const { images } = await getImages(imagesData, 8, 1);
+  console.log(artistas);
 
   return {
     props: {
-      homeImages: images
+      homeImages: images,
+      homeArtists: artistas
     } // will be passed to the page component as props
   };
 }

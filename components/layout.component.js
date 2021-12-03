@@ -1,9 +1,36 @@
+import Link from "next/dist/client/link";
+import Head from "next/head";
 import Image from "next/image";
 import { SocialButtons } from "./socialButtons.component";
 
-const Menu = () => {
+const Menu = ({active}) => {
+  const menu= [
+    {sectionName:"galeria",showedName:"Galería",path:"/galeria"},
+    {sectionName:"artistas",showedName:"Artistas",path:"/"},
+    {sectionName:"contacto",showedName:"Contacto",path:"/"},
+    {sectionName:"tienda",showedName:"Tienda",path:"/"},
+  ]
+  const isActive = (section) => {
+    return active===section?"menu-item-active":"menu-item"
+  }
+  const makeMenu = () => {
+   const to_return = menu.map(menuItem=>{
+     let {sectionName,showedName,path} = menuItem
+     return  <li key={Math.random()} className={isActive(sectionName)}>
+                <Link href={{pathname: path}}>
+                  <a href="#skills">{showedName}</a>
+                </Link>
+              </li>
+   })
+   return to_return
+  }
+  
   return (
     <header className="header">
+      <Head>
+        <title>Raga Tattoo</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <nav className="navbar">
         <a className="brand" href="/">
           <Image
@@ -21,18 +48,7 @@ const Menu = () => {
         </label>
         <div className="navbar-wrapper">
           <ul className="menu">
-            <li className="menu-item">
-              <a href="#skills">Galeria</a>
-            </li>
-            <li className="menu-item">
-              <a href="#portfolio">Artistas</a>
-            </li>
-            <li className="menu-item">
-              <a href="#contact">Contactanos</a>
-            </li>
-            <li className="menu-item">
-              <a href="#contact">Tienda</a>
-            </li>
+           {makeMenu()}
           </ul>
         </div>
       </nav>
@@ -60,10 +76,10 @@ const Footer = () => {
   );
 };
 
-export default function Layout({ children }) {
+export default function Layout({ children, actual }) {
   return (
     <>
-      <Menu></Menu>
+      <Menu active={actual}></Menu>
       {children}
       <Footer></Footer>
       <SocialLinks></SocialLinks>

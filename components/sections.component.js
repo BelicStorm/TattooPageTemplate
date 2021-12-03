@@ -22,12 +22,16 @@ const GalerySection = ({ images }) => {
     </>
   );
 };
-const ArtistSection = () => {
+const ArtistSection = ({artists}) => {
   return (
     <>
       <SectionTitle image={"HomeImage"} titleText={"Artistas del estudio"} />
       <section className="container">
-        <Artist />
+        {
+          artists.map((artist)=>{
+            return <Artist data={artist} />
+          })
+        }
       </section>
     </>
   );
@@ -80,7 +84,7 @@ const ShopSection = () => {
         <div className="sliderContainer">
           <Slider heading="test" slides={slideData}></Slider>
         </div>
-        <Button buttonText="Ver tienda" buttonHref="" />
+        <Button buttonText="Ver tienda" buttonHref="/" />
       </section>
     </>
   );

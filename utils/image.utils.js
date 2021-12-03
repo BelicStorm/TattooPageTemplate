@@ -8,7 +8,7 @@ export const getImages = async (data, ofset, next) => {
   try {
     const dataPaginated = paginate(data, ofset, next);
     imageReg = data.length;
-    console.log("aaaaa", dataPaginated);
+/*     console.log("aaaaa", dataPaginated); */
 
     return { images: dataPaginated, error: false };
   } catch (err) {

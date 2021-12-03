@@ -1,24 +1,38 @@
 import Link from "next/dist/client/link";
+import { useEffect } from "react";
 import { Galeria } from "./galeria.component";
 
 export default function ListPaginatedImages({ data, actualPage, regs }) {
   // Triggers fetch for new page
 
   const PaginationController = () => {
-    const actualPageis0 = actualPage === 1;
-    const actualPageIsTheLastPage = actualPage === regs - 1;
+    let actualPageis0 = actualPage === 1;
+    let actualPageIsTheLastPage = actualPage === parseInt(regs/10);
+    /* console.log({actualPageis0,actualPageIsTheLastPage,actualPage,regs}); */
     let to_return = (
-      <div>
-        <button disable={actualPageis0}>Atras</button>
-        <button disable={actualPageIsTheLastPage}>Siguiente</button>
+      <div className="paginationController">
+        {
+          actualPageis0 
+              ? <i className="arrow-left"></i>
+              : <Link href={{pathname:"/galeria",query:{page:actualPage-1}}} ><i className="arrow-left"></i></Link>
+        }
+        <div>Filtros</div>
+        {
+          actualPageIsTheLastPage 
+            ? <i className="arrow-right"></i>
+            : <Link href={{pathname:"/galeria",query:{page:actualPage+1}}} ><i className="arrow-right"></i></Link>
+        }
       </div>
     );
     return to_return;
   };
+ 
   return (
-    <div className="PaginationContainer">
+    <>
       <PaginationController />
+      <div className="PaginationContainer">
       <Galeria images={data} />
     </div>
+    </>
   );
 }
