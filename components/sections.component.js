@@ -1,4 +1,4 @@
-import { Artist } from "./artist.component";
+import { ArtistCard } from "./artist.component";
 import { Button } from "./button.component";
 import { Galeria } from "./galeria.component";
 import { SectionTitle } from "./sectionTitle.component";
@@ -26,10 +26,11 @@ const ArtistSection = ({artists}) => {
   return (
     <>
       <SectionTitle image={"HomeImage"} titleText={"Artistas del estudio"} />
-      <section className="container">
+      <Title center="Artistas del estudio"/>
+      <section className="artistsContainer">
         {
           artists.map((artist)=>{
-            return <Artist data={artist} />
+            return <ArtistCard data={artist} />
           })
         }
       </section>

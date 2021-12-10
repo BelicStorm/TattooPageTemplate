@@ -26,6 +26,15 @@
             "description":"Dinamyc description for Foo Bar",
             "social":[{"link":"https://www.facebook.com/RagaTattoo/","img":"/media/facebook.svg"},
                 {"link":"https://www.instagram.com/ragatattoo/?hl=es","img":"/media/instagram.svg"},
+                {"link":"https://twitter.com/TwitterDev/","img":"/media/twitter.svg"}]},
+        {"name":"Bar Foo",
+            "aptitude":{"tattoo":true,"piercing":true},
+            "artistPhoto":"/tatto-test/artist2.jpg",
+            "recomendedWork1":"/tatto-test/2.jpg",
+            "recomendedWork2":"/tatto-test/4.jpg",
+            "description":"Dinamyc description for Foo Bar",
+            "social":[{"link":"https://www.facebook.com/RagaTattoo/","img":"/media/facebook.svg"},
+                {"link":"https://www.instagram.com/ragatattoo/?hl=es","img":"/media/instagram.svg"},
                 {"link":"https://twitter.com/TwitterDev/","img":"/media/twitter.svg"}]}
     ]
 }
