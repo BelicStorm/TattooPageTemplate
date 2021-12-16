@@ -4,7 +4,6 @@ import { Galeria } from "./galeria.component";
 import { SectionTitle } from "./sectionTitle.component";
 import { TextSide } from "./sides.component";
 import { Title } from "./title.component";
-import { Slider, slideData } from "./slider.component";
 
 const GalerySection = ({ images }) => {
   return (
@@ -12,7 +11,7 @@ const GalerySection = ({ images }) => {
       <SectionTitle image={"HomeImage"} />
       <section className="container featuredArtContainer">
         <Title
-          upper={"Seleccionado por nuestros artistas"}
+          upper={"Te recomendamos"}
           center="Arate destacado"
           sub={"Tattoo & Piercing"}
         ></Title>
@@ -22,19 +21,18 @@ const GalerySection = ({ images }) => {
     </>
   );
 };
-const ArtistSection = ({artists}) => {
+const ArtistSection = ({ artists }) => {
   return (
-    <>
+    <div className="aboutUs">
       <SectionTitle image={"HomeImage"} titleText={"Artistas del estudio"} />
-      <Title center="Artistas del estudio"/>
+      <Title center="Artistas del estudio" />
       <section className="artistsContainer">
-        {
-          artists.map((artist)=>{
-            return <ArtistCard data={artist} />
-          })
-        }
+        {artists.map((artist) => {
+          return <ArtistCard data={artist} />;
+        })}
       </section>
-    </>
+      <Button buttonText="Más sobre nosotros" buttonHref="/" />
+    </div>
   );
 };
 const ContactSection = () => {
@@ -50,7 +48,7 @@ const ContactSection = () => {
               center: "Ven al estudio",
               sub: undefined
             }}
-            description="Contact 1 Description"
+            description="Ven al estudio y habla directamente con nosotros sobre lo que quieres hacerte. "
             social={{
               haveSocialButtons: false,
               socialLinks: undefined
@@ -60,7 +58,8 @@ const ContactSection = () => {
           <TextSide
             textType="contact"
             title={{ upper: undefined, center: "Pide Cita", sub: undefined }}
-            description="Contact 2 Description"
+            description="Pide cita para resolver dudas, ultimar un tatuaje etc, y asegurate de que estaremos a la hora 
+            que lo necesitas."
             social={{
               haveSocialButtons: false,
               socialLinks: undefined
@@ -72,23 +71,4 @@ const ContactSection = () => {
     </>
   );
 };
-const ShopSection = () => {
-  return (
-    <>
-      <SectionTitle image={"HomeImage"} titleText={"Tienda"} />
-      <section className="container shopContainer">
-        <Title
-          upper={undefined}
-          center="Articulos de la tienda"
-          sub={undefined}
-        ></Title>
-        <div className="sliderContainer">
-          <Slider heading="test" slides={slideData}></Slider>
-        </div>
-        <Button buttonText="Ver tienda" buttonHref="/" />
-      </section>
-    </>
-  );
-};
-
-export { GalerySection, ArtistSection, ContactSection, ShopSection };
+export { GalerySection, ArtistSection, ContactSection };

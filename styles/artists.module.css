@@ -1,144 +1,160 @@
-.artistsContainer{
-    display: grid;
-    grid-template-columns: repeat(3, 0.23fr);
-    grid-auto-rows: max-content;
-    grid-auto-flow: row;
-    justify-content: center;
-
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-  @media (max-width: 1330px) {
-    .artistsContainer{
-      grid-template-columns: repeat(2, 0.23fr);
-    }
+.artistsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 0.23fr);
+  grid-auto-rows: max-content;
+  grid-auto-flow: row;
+  justify-content: center;
+  gap: 8px;
+}
+@media (max-width: 1330px) {
+  .artistsContainer {
+    grid-template-columns: repeat(2, 0.23fr);
   }
-  @media (max-width: 736px) {
-    .artistsContainer{
-      grid-template-columns: repeat(1, 1fr);
-    }
+}
+@media (max-width: 736px) {
+  .artistsContainer {
+    grid-template-columns: repeat(1, 1fr);
   }
+}
 .artistContainer {
-    max-height: 800px;
-    max-width: 1280px;
-    min-height: 400px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
 }
-  .border {
-    height: 369px;
-    width: 290px;
-    background: transparent;
-    border-radius: 10px;
-    transition: border 1s;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-  }
+.border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
 
-  .card {
-    height: 379px;
-    width: 300px;
-    background: #808080;
-    transition: background 0.8s;
-    overflow: hidden;
-    background: #000;
-    box-shadow: 0 70px 63px -60px #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
+.card {
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
+.card0 {
+  background: center center no-repeat;
+  background-size: cover;
+}
+.card0:hover {
+  background: left center no-repeat #0000007a;
+  background-blend-mode: saturation;
+  background-size: 600px;
+  border: 1px solid #f80000;
+}
+.card0:hover h2,
+.card0:hover h3 {
+  opacity: 1;
+}
+.card0:hover .artistSocial {
+  opacity: 1;
+}
+.card0:hover .icons .icon {
+  opacity: 1;
+}
+.card0 .button2 {
+  font-size: 16px;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 1s;
+  width: inherit;
+}
+.card0:hover .button2 {
+  opacity: 1;
+}
+
+.artistContainer h2 {
+  transition: opacity 1s;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.artistContainer h3 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #fdfdfd;
+  opacity: 0;
+  transition: opacity 1s;
+  position: relative;
+  bottom: -13em;
+  left: 4em;
+  width: 100%;
+  text-align: right;
+}
+.artistSocial {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.icons .icon {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.artistSocial {
+  width: 70px;
+  height: 70px;
+}
+.icons {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 210px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
   .card0 {
-    background: center center no-repeat;
-    background-size: cover;
-  }
-  .card0:hover {
     background: left center no-repeat #0000007a;
     background-blend-mode: saturation;
     background-size: 600px;
-    border: 1px solid #F80000;
+    border: 1px solid #f80000;
   }
-  .card0:hover h2,
-  .card0:hover h3 {
+  .card0 h2,
+  .card0 h3 {
     opacity: 1;
   }
-  .card0:hover .artistSocial   {
+  .card0 .artistSocial {
     opacity: 1;
   }
-  .card0:hover .icons .icon   {
+  .card0 .button2 {
     opacity: 1;
   }
 
-  .artistContainer h2 {
-    transition: opacity 1s;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    letter-spacing: 2px;
-    color: #ffffff;
-    margin: 20px;
-    opacity: 0;
-    transition: opacity 1s;
+  .card0 .icons .icon {
+    opacity: 1;
   }
-  .artistContainer h3 {
-    font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 2px;
-    color: #fdfdfd;
-    opacity: 0;
-    transition: opacity 1s;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    text-align: right;
-  }
-  .artistSocial   {
-    opacity: 0;
-    transition: opacity 1s;
-  }
-  .icons .icon   {
-    opacity: 0;
-    transition: opacity 1s;
-  }
-  .artistSocial {
-    width: 70px;
-    height: 70px;
-  }
-  .icons {
-    position: absolute;
-    fill: #fff;
-    color: #fff;
-    height: 130px;
-    top: 226px;
-    width: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-@media only screen and (hover: none) and (pointer: coarse){
-
-    .card0 {
-        background: left center no-repeat #0000007a;
-        background-blend-mode: saturation;
-        background-size: 600px;
-        border: 1px solid #F80000;
-      }
-      .card0 h2,
-      .card0 h3 {
-        opacity: 1;
-      }
-      .card0 .artistSocial   {
-        opacity: 1;
-      }
-      .card0 .icons .icon   {
-        opacity: 1;
-      }
-    
 }
-  
