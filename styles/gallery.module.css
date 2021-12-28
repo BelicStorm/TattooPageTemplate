@@ -22,7 +22,7 @@
   position: sticky;
   top: 4.5em;
   z-index: 99999;
-  background: #120000;
+  background: #000;
   margin-bottom: 3em;
 }
 
@@ -38,8 +38,8 @@
 }
 .container .gallery .gallery-item {
   /* flex: 0 0 400px; */
-  height: 600px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   max-height: 600px;
   max-width: 400px;
   margin: -12px;
@@ -101,6 +101,18 @@
 @media (max-width: 420px) {
   .container .gallery .gallery-item {
     width: 300px;
-    height: 500px;
+    height: 300px;
+  }
+}
+@media only screen and (hover: none) and (pointer: coarse) {
+  .container .gallery .gallery-item {
+    border: 1px solid #f80000;
+  }
+  .container .gallery .gallery-item .gallery-image {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+  .container .gallery-item .overlay {
+    bottom: 0;
   }
 }

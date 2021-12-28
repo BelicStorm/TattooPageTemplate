@@ -3,28 +3,30 @@ import Head from "next/head";
 import Image from "next/image";
 import { SocialButtons } from "./socialButtons.component";
 
-const Menu = ({active}) => {
-  const menu= [
-    {sectionName:"galeria",showedName:"Galería",path:"/galeria"},
-    {sectionName:"artistas",showedName:"Artistas",path:"/"},
-    {sectionName:"contacto",showedName:"Contacto",path:"/"},
-    {sectionName:"tienda",showedName:"Tienda",path:"/"},
-  ]
+const Menu = ({ active }) => {
+  const menu = [
+    { sectionName: "galeria", showedName: "Galería", path: "/galeria" },
+    { sectionName: "artistas", showedName: "Artistas", path: "/artistas" },
+    { sectionName: "contacto", showedName: "Contacto", path: "/" },
+    { sectionName: "tienda", showedName: "Tienda", path: "/" }
+  ];
   const isActive = (section) => {
-    return active===section?"menu-item-active":"menu-item"
-  }
+    return active === section ? "menu-item-active" : "menu-item";
+  };
   const makeMenu = () => {
-   const to_return = menu.map(menuItem=>{
-     let {sectionName,showedName,path} = menuItem
-     return  <li key={Math.random()} className={isActive(sectionName)}>
-                <Link href={{pathname: path}}>
-                  <a href="#skills">{showedName}</a>
-                </Link>
-              </li>
-   })
-   return to_return
-  }
-  
+    const to_return = menu.map((menuItem) => {
+      let { sectionName, showedName, path } = menuItem;
+      return (
+        <li key={Math.random()} className={isActive(sectionName)}>
+          <Link href={{ pathname: path }}>
+            <a href="#skills">{showedName}</a>
+          </Link>
+        </li>
+      );
+    });
+    return to_return;
+  };
+
   return (
     <header className="header">
       <Head>
@@ -47,9 +49,7 @@ const Menu = ({active}) => {
           <span></span>
         </label>
         <div className="navbar-wrapper">
-          <ul className="menu">
-           {makeMenu()}
-          </ul>
+          <ul className="menu">{makeMenu()}</ul>
         </div>
       </nav>
     </header>

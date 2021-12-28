@@ -11,16 +11,7 @@
   justify-content: center;
   gap: 8px;
 }
-@media (max-width: 1330px) {
-  .artistsContainer {
-    grid-template-columns: repeat(2, 0.23fr);
-  }
-}
-@media (max-width: 736px) {
-  .artistsContainer {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
+
 .artistContainer {
   max-height: 800px;
   max-width: 1280px;
@@ -156,5 +147,41 @@
 
   .card0 .icons .icon {
     opacity: 1;
+  }
+}
+
+/*About Us*/
+.policityWorkContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 0.23fr);
+  gap: 32px;
+}
+.policityWorkContainer div {
+  width: 300px;
+  height: auto;
+}
+.policityWorkContainer h2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+.policityWorkContainer p {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 100;
+}
+/*Artist description*/
+
+@media (max-width: 1330px) {
+  .artistsContainer {
+    grid-template-columns: repeat(2, 0.23fr);
+  }
+}
+@media (max-width: 765px) {
+  .artistsContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .policityWorkContainer {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

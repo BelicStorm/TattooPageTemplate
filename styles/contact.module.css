@@ -1,24 +1,27 @@
 .contactContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-    align-content: center;
-    min-height: 400px;
-    flex: 0 0 400px;
-  }
-  .contactContainer .title {
-    margin-bottom: 1em;
-  }
-  .contactContainer .heading {
-    margin-bottom: 1em;
-    margin-top: 26px;
-  }
-  .contactActions {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  align-content: center;
+  min-height: 300px;
+}
+.contactContainer .title {
+  margin-bottom: 1em;
+}
+.contactContainer .heading {
+  margin-bottom: 1em;
+  margin-top: 26px;
+}
+.contactActions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .contactContainer {
+    flex-direction: column;
     align-items: center;
   }
-  
+}

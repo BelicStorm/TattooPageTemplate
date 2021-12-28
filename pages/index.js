@@ -3,7 +3,8 @@ import { getImages } from "../utils/image.utils";
 import {
   ArtistSection,
   ContactSection,
-  GalerySection
+  GalerySection,
+  AboutUsSection
 } from "../components/sections.component";
 
 export default function Home({ homeImages, homeArtists }) {
@@ -15,8 +16,9 @@ export default function Home({ homeImages, homeArtists }) {
         {/* Section 2 */}
         <ArtistSection artists={homeArtists} />
         {/* Section 3 */}
-        <ContactSection />
+        <AboutUsSection />
         {/* Section 4 */}
+        <ContactSection />
       </div>
     </Layout>
   );

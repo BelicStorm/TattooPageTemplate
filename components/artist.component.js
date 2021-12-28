@@ -18,7 +18,10 @@ export const ArtistCard = ({ data }) => {
           <div className="border">
             <h2>{name}</h2>
             <div className="icons">
-              <SocialButtons socialLinks={social} iconClass="artistSocial" />
+              <SocialButtons
+                socialLinks={social}
+                iconClassName="artistSocial"
+              />
             </div>
             <h3>{artistType}</h3>
           </div>
