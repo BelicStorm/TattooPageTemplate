@@ -11,7 +11,7 @@ const Menu = ({ active }) => {
     { sectionName: "tienda", showedName: "Tienda", path: "/" }
   ];
   const isActive = (section) => {
-    return active === section ? "menu-item-active" : "menu-item";
+    return active === section ? "active" : "menu-item";
   };
   const makeMenu = () => {
     const to_return = menu.map((menuItem) => {
@@ -68,11 +68,26 @@ const SocialLinks = () => {
 };
 const Footer = () => {
   return (
-    <footer className="footer">
-      <p>Texto del footer - Texto del Footer</p>
-      <div className="divider"></div>
-      <p>Texto del footer 2</p>
-    </footer>
+    <div className="footer">
+      <div className="inner-footer">
+        <div className="footer-items">
+          <h2>Company Name</h2>
+          <p>Description of any product or motto of the company.</p>
+        </div>
+        <div className="footer-items">
+          <h3>Contact us</h3>
+            <ul>
+              <li>XYZ, abc</li>
+              <li>123456789</li>
+              <li>xyz@gmail.com</li>
+            </ul> 
+        </div>
+      </div>
+      
+      <div className="footer-bottom">
+        Copyright &copy; Cristian Pardo 2021
+      </div>
+    </div>
   );
 };
 

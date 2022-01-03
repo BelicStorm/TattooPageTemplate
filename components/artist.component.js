@@ -1,5 +1,6 @@
 import { SocialButtons } from "./socialButtons.component";
 import { Button } from "./button.component";
+import Image from 'next/image'
 
 export const ArtistCard = ({ data }) => {
   const { name, aptitude, artistPhoto, social } = data;
@@ -31,3 +32,46 @@ export const ArtistCard = ({ data }) => {
     </>
   );
 };
+
+export const ArtistPresentation = ({data, imageSide})=>{
+  const { name, aptitude, artistPhoto, social, description } = data;
+  const { tattoo, piercing } = aptitude;
+  let artistType = "";
+  artistType = tattoo && !piercing ? "Tattoo Artist" : artistType;
+  artistType = !tattoo && piercing ? "Piercing Artist" : artistType;
+  artistType = tattoo && piercing ? "Tattoo & Piercing" : artistType;
+  return (
+    <>
+      <div className="ArtistPresentation-container">
+        <div className="ArtistPresentation-image">
+        <Image
+          src={artistPhoto}
+          alt="Picture of the author"
+          layout='fill'
+          objectFit='contain'
+        />
+        </div>
+        <div className="ArtistPresentation-text">
+            <h2>{name}</h2>
+            <h3>{artistType}</h3>
+            <div className="ArtistPresentation-description">
+                <p>{description}</p>
+            </div>
+            <div className="ArtistPresentation-actions">
+              <Button buttonText="Ver Trabajos" buttonHref="/" />
+              <div className="social-icons">
+                <SocialButtons socialLinks={social} iconClassName="artistSocial"/>
+              </div>
+            </div>
+            
+        </div>
+        
+      </div>
+      
+    </>
+  )
+}
+export const ArtistPage = ({})=>{
+  
+}
+

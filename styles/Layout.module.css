@@ -56,7 +56,7 @@
   border-radius: 2%;
   transition: background-color 70ms ease-out 5ms;
 }
-.header .navbar .menu-item-active a {
+.header .navbar .active a {
   font-family: "Kanit", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -67,6 +67,7 @@
   text-decoration: none;
   padding: 8px;
   border-radius: 2%;
+  margin-left: 2em;
   transition: background-color 70ms ease-out 5ms;
 }
 .header .navbar .menu-item a:hover {
@@ -89,12 +90,108 @@
 
 /* Footer */
 .footer {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  bottom: 0%;
-  align-items: center;
+	width: 100%;
+	display: block;
+ }
+
+.inner-footer {
+   border-top: 1px #383838 solid;
+	 width: 90%;
+	 margin: auto;
+	 padding: 30px 10px;
+	 display: flex;
+	 flex-wrap: wrap;
+	 box-sizing: border-box;
+	 justify-content: center;
+ }
+
+.footer-items {
+	width: 50%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	color: #fff;
 }
+
+.footer-items p {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+	color: #fff;
+}
+
+.footer-items h2 {
+	color: #fff;
+}
+
+.footer-items p {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+	color: #fff;
+}
+
+.footer-items h2 {
+	color: #fff;
+}
+.footer-items h2,
+.footer-items h3 {
+	font-family: "Athina", sans-serif;
+  letter-spacing: 10px;
+}
+
+.footer ul {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+	list-style: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;	
+ }
+
+.footer ul a {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.footer ul a:hover {
+	color: #f80000;
+}
+
+
+
+.footer li i {
+	margin-right: 20px;
+}
+
+.footer-bottom {
+	padding: 10px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+
+/* for tablet mode view */
+
+@media screen and (max-width: 1275px) {
+	.footer-items {
+		width: 50%;
+	}
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+	.footer-items {
+		width: 100%;
+	}
+}
+/*......Footer...............*/
 
 @keyframes grow {
   from {
@@ -114,6 +211,9 @@
     display: inline;
     background-color: #120000;
     color: #f80000;
+  }
+  .header .navbar .active a{
+   margin-left: 0;
   }
   .header .navbar .navbar-wrapper {
     position: fixed;
@@ -138,7 +238,7 @@
     width: 100%;
     text-align: left;
   }
-  .header .navbar .navbar-wrapper .menu-item-active {
+  .header .navbar .navbar-wrapper .active {
     padding-bottom: 1rem;
     width: 100%;
     text-align: left;

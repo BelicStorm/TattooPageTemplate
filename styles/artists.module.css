@@ -5,11 +5,11 @@
 }
 .artistsContainer {
   display: grid;
-  grid-template-columns: repeat(3, 0.23fr);
+  grid-template-columns: repeat(2, 0.23fr);
   grid-auto-rows: max-content;
   grid-auto-flow: row;
   justify-content: center;
-  gap: 8px;
+  gap: 12px;
 }
 
 .artistContainer {
@@ -21,6 +21,95 @@
   align-items: center;
   margin: 0 auto;
 }
+
+/* Artist Presentation */
+.ArtistPresentation-container{
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;    
+}
+.ArtistPresentation-image{
+  position: relative;
+  width: 50%;
+  min-width: 250px;
+  height: auto;
+ 
+}
+.ArtistPresentation-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  max-width: 45%;
+}
+.ArtistPresentation-text h2{
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  color:white;
+  margin-bottom: -20px;
+  font-size: 30px;
+}
+.ArtistPresentation-text h3{
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  color:white;
+  font-size: 17px;
+}
+.ArtistPresentation-text p{
+  font-weight: 100;
+  color: white;
+  font-size: 16px;
+  text-align: inherit;
+}
+.ArtistPresentation-actions {
+  display: flex;
+  gap: 5em;
+}
+.ArtistPresentation-actions .social-icons{
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.ArtistPresentation-actions .social-icons .icon{
+  opacity: 1;
+}
+@media (max-width: 1015px) {
+  .ArtistPresentation-container{
+    margin-bottom: 4em;
+    width: 70%;
+    max-width: 70%;
+    justify-content: center;
+  }
+  .ArtistPresentation-image{
+    min-width: 250px;
+    min-height: 250px;
+  }
+  .ArtistPresentation-text{
+    padding: 0px;
+    align-items: center;
+    width: 70%;
+    max-width: 70%;
+    height: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .ArtistPresentation-container{
+    width: 90%;
+    max-width: 90%;
+  }
+  .ArtistPresentation-text{
+    width: 90%;
+    max-width: 90%;
+  }
+}
+
+
+/* Artist Card */
 .border {
   height: 369px;
   width: 290px;

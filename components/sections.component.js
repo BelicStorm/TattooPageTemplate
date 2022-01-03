@@ -12,7 +12,7 @@ const GalerySection = ({ images }) => {
       <section className="container featuredArtContainer">
         <Title
           upper={"Te recomendamos"}
-          center="Arate destacado"
+          center="Arte destacado"
           sub={"Tattoo & Piercing"}
         ></Title>
         <Galeria images={images} />
@@ -24,7 +24,7 @@ const GalerySection = ({ images }) => {
 const AboutUsSection = ({ artists }) => {
   return (
     <div className="container aboutUs">
-      <Title center="Cómo Trabajamos" />
+      <Title center="Nuetsro Metodo" />
       <section className="policityWorkContainer">
         <div>
           <h2>1. DESCRÍBENOS TU IDEA</h2>

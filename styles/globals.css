@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap"); */
 @import "./Layout.module.css";
 @import "./Home.module.css";
 @import "./gallery.module.css";
 @import "./artists.module.css";
 @import "./contact.module.css";
+
+@font-face {
+  font-family: "Athina";
+  src: url("./fonts/Athina\ DEMO.otf");
+}
 
 body {
   margin: 0;
@@ -133,12 +138,12 @@ body {
   color: #fff;
 }
 .heading {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Athina", sans-serif;
   font-weight: 400;
   font-size: 40px;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: 10px;
   margin: 2rem 0;
   color: #f80000;
 }
@@ -161,6 +166,9 @@ body {
 }
 .container {
   padding: 1rem 0px;
+}
+.container-page {
+  padding: 4rem 0px;
 }
 p {
   font-family: "Kanit", sans-serif;
