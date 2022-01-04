@@ -30,7 +30,7 @@ export async function getServerSideProps(context) {
   );
   const { artistas } = await import(`../models/provisional-artists.json`);
   const { images } = await getImages(imagesData, 8, 1);
-  console.log(artistas);
+  /* console.log(artistas); */
 
   return {
     props: {

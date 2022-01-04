@@ -94,7 +94,7 @@
     align-items: center;
     width: 70%;
     max-width: 70%;
-    height: 50%;
+    height: 55%;
   }
 }
 @media (max-width: 900px) {
@@ -107,7 +107,11 @@
     max-width: 90%;
   }
 }
-
+@media (max-width: 375px) {
+  .ArtistPresentation-actions {
+    gap: 3em;
+  }
+}
 
 /* Artist Card */
 .border {

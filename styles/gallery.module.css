@@ -35,7 +35,7 @@
   grid-gap: 2rem;
   justify-content: center;
   margin-top: -2em;
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 .container .gallery .gallery-item,
 .container-page .gallery .gallery-item {

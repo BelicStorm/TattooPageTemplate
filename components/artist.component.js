@@ -26,7 +26,7 @@ export const ArtistCard = ({ data }) => {
             </div>
             <h3>{artistType}</h3>
           </div>
-          <Button buttonText="Ver Galería" buttonHref="/" />
+          <Button buttonText="Ver Galería" buttonHref={`/artista/${name}`} />
         </div>
       </div>
     </>
@@ -58,7 +58,7 @@ export const ArtistPresentation = ({data, imageSide})=>{
                 <p>{description}</p>
             </div>
             <div className="ArtistPresentation-actions">
-              <Button buttonText="Ver Trabajos" buttonHref="/" />
+              <Button buttonText="Ver Trabajos" buttonHref={`/artista/${name}`} />
               <div className="social-icons">
                 <SocialButtons socialLinks={social} iconClassName="artistSocial"/>
               </div>
@@ -70,8 +70,5 @@ export const ArtistPresentation = ({data, imageSide})=>{
       
     </>
   )
-}
-export const ArtistPage = ({})=>{
-  
 }
 

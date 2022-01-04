@@ -1,0 +1,140 @@
+.gateToNothingness {
+    display: flex;
+    align-items: center;
+    background: #000;
+    min-width: 275px;
+    height: 100vh;
+    overflow: hidden;
+    color: #f80000;
+    font-family: sans-serif;
+    background-image: url(https://media.giphy.com/media/f6UWsiU56kjWVYrsLo/giphy.gif);
+    background-size: cover;
+  }
+  
+  .ForgottenRealm {
+    flex-grow: 2;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s ease-out;
+  }
+  
+  .ForgottenRealm:hover {
+    color: #fff;
+    background-color: #222;
+    animation: anim 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.1s infinite alternate;
+  }
+  
+  .ForgottenRealm:hover span {
+    opacity: 0.6;
+  }
+  
+  @keyframes anim {
+    0% {
+      letter-spacing: 0.25em;
+      color: #fff;
+      outline: solid 2px #000;
+      border-radius: 0px;
+      background-color: #222;
+      box-shadow: 2px 5px 0px 0px #666 inset;
+      transform: translateX(0px);
+    }
+    15% {
+      letter-spacing: 0.1em;
+      color: #fff00f;
+      border-radius: 3px;
+      transform: translateX(-3px);
+      box-shadow: 10px 10px 0px 10px #666 inset;
+      background-color: #666;
+    }
+    50% {
+      letter-spacing: 0.11em;
+      color: #00ffff;
+      border-radius: 0px;
+      transform: translateX(1px);
+      transform: translateY(1px);
+      box-shadow: -20px 10px 0px 0px #000 inset;
+      background-color: #222;
+    }
+    75% {
+      letter-spacing: 0.1em;
+      color: #ff0000;
+      border-radius: 1px;
+      transform: translateX(-2px);
+      transform: translateY(0px);
+      box-shadow: 20px -10px 0px 10px #333 inset;
+      background-color: #222;
+    }
+    100% {
+      letter-spacing: 0.11em;
+      outline: solid 2px #000;
+      transform: translateX(0px);
+      border-radius: 0px;
+      box-shadow: 80px 0px 0px 0px #000 inset;
+      color: #fff;
+      background-color: #444;
+    }
+  }
+  .ForgottenRealm h1 {
+    margin: 0;
+    font-size: 6em;
+    font-weight: 100;
+  }
+  
+  .ForgottenRealm p {
+    width: 95%;
+    font-size: 1.5em;
+    line-height: 1.4;
+  }
+  
+  .salvation {
+    white-space: nowrap;
+    display: inline-block;
+  }
+  
+  .ForgottenRealm span {
+    display: block;
+    text-transform: uppercase;
+    color: #b9ddfb;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+  
+  .ForgottenRealm a {
+    display: inline-block;
+    padding: 0.8em 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #f80000;
+    color: #F80000;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .ForgottenRealm a:hover {
+    color: #fff;
+  }
+  .ForgottenRealm a:hover:before {
+    top: 0;
+  }
+  .ForgottenRealm a:before {
+    content: "";
+    background: #F80000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    transition: 0.3s;
+    z-index: -1;
+  }

@@ -4,11 +4,14 @@
 @import "./Home.module.css";
 @import "./gallery.module.css";
 @import "./artists.module.css";
+@import "./artistDetails.module.css";
 @import "./contact.module.css";
+@import "./404.module.css";
+
 
 @font-face {
   font-family: "Athina";
-  src: url("./fonts/Athina\ DEMO.otf");
+  src: url("/fonts/Athina\ DEMO.otf");
 }
 
 body {
@@ -122,6 +125,7 @@ body {
   cursor: pointer;
   max-width: max-content;
   transition: background-color 70ms ease-out 5ms;
+  margin: 1.5em 0px;
 }
 .button2:hover,
 .button:hover {

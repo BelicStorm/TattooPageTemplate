@@ -11,14 +11,13 @@ export default function ArtistsPage({homeArtists}) {
       ></Title>
         {
           homeArtists.map((artist,index)=>{
-            return <ArtistPresentation data={artist}></ArtistPresentation>
+            return <ArtistPresentation key={index} data={artist}></ArtistPresentation>
           })
         }
       </section>
     </Layout>
   );
 }
-
 export async function getServerSideProps(context) {
   const { artistas } = await import(`../models/provisional-artists.json`);
 

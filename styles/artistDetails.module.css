@@ -1,0 +1,144 @@
+.backdrop-blur {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  
+.artistPage-grid {
+    margin: 24px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 448px repeat(auto-fit, minmax(212px, 1fr));
+    grid-gap: 24px;
+    line-height: 1.5;
+}
+.artistPage-grid .social-icons {
+  display: flex;
+  justify-content: center;
+}
+.personalGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.personalGallery .gallery{
+  margin-top: 0em;
+}
+.artistPage-grid  h1,
+.artistPage-grid  h3 {
+    font-family: "Athina", sans-serif;
+    letter-spacing: 10px;
+} 
+
+.artistPage-grid  h1 {
+    color: #fff;
+    font-size: 68px;
+    margin-bottom: -16px;
+    font-size: max(min(4.444444vw, 68px), 38px);
+    text-transform: uppercase;
+  }
+  
+.artistPage-grid  h2 {
+    color:#fff;
+    font-size: 16px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+  }
+  
+.artistPage-grid  h2 + .img {
+    margin-top: 24px;
+  }
+  
+.artistPage-grid  h3 {
+    font-size: 26px;
+    color: #f80000;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+  }
+  
+.artistPage-grid  h3 + .img {
+    margin-top: 24px;
+  }
+  
+.artistPage-grid  p {
+    width: 100%;
+    max-width: 500px;
+    font-weight: 200;
+  }
+  
+.artistPage-grid  p,
+.artistPage-grid  ul {
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+.artistPage-grid  h3 + ul {
+    margin-top: 24px;
+  }
+  
+.artistPage-grid  p + h3 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+.artistPage-grid  strong {
+    font-weight: 600;
+  }
+  
+.artistPage-grid  .center {
+    text-align: center;
+  }
+  
+.artistPage-grid  .img + h3 {
+    margin-top: 24px;
+  }
+  
+.artistPage-grid  hr {
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  
+.artistPage-grid  .cp {
+    font-size: 12px;
+    text-align-last: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: grey;
+  }
+  
+.artistPage-grid  .img + p {
+    margin-top: 0;
+  }
+  
+.artistPage-grid  .img {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+.artistPage-grid  .img img {
+    background-color: #f5f5f5;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+.artistPage-grid  .no-margin {
+    margin: 0;
+  }
+  
+.artistPage-grid  .ruler-list li {
+    border-bottom: 1px solid #000;
+  }
+
+@media (max-width: 888px) {
+    .artistPage-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 24px;
+    }
+    .featured {
+        display: none;
+    }
+}

@@ -6,7 +6,7 @@ import { Title } from "../components/title.component";
 export default function GalleryPage({ data, actualPage,regs }) {
   return (
     <Layout actual="galeria">
-      <section className="ArtContainer container">
+      <section className="ArtContainer container-page">
         <Title
           upper={"Todo nuestro arte a tu alcance"}
           center="Galería"
@@ -14,6 +14,7 @@ export default function GalleryPage({ data, actualPage,regs }) {
         <ListPaginatedImages
           data={data}
           actualPage={actualPage}
+          location={"galeria"}
           regs={regs}
         />
       </section>
@@ -27,11 +28,11 @@ export async function getServerSideProps({ query, req }) {
   const actualAmountOfImages = `${page}0`;
   const { images } = await getImages(data, actualAmountOfImages, page);
   /* const host = process.env.host; */
-  /* if (images.length === 0) {
+  if (images.length === 0) {
     return {
       notFound: true
     };
-  } */
+  }
   return {
     props: {
       data: images,
