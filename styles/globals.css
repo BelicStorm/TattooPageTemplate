@@ -9,10 +9,6 @@
 @import "./404.module.css";
 
 
-@font-face {
-  font-family: "Athina";
-  src: url("/fonts/Athina\ DEMO.otf");
-}
 
 body {
   margin: 0;
