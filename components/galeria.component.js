@@ -4,7 +4,7 @@ export const Galeria = ({ images }) => {
   return (
     <div className="gallery">
       {images.map((image) => {
-        let {url} = image
+        let {url,title} = image
         return (
           <div className="gallery-item forest" key={Math.random()}>
             <img
@@ -13,7 +13,7 @@ export const Galeria = ({ images }) => {
               alt="forest"
             />
             <div className="overlay">
-              <Button buttonText="Ver trabajo" buttonHref="/" />
+              <Button buttonText="Ver trabajo" buttonHref={`/trabajos/${title}`} />
             </div>
           </div>
         );

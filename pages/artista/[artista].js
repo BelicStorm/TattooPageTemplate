@@ -13,17 +13,17 @@ export default function ArtistDetails({homeArtists,images,actualPage,regs}) {
   return (
     <Layout actual="artistas">
       <section className="ArtContainer container-page">
-        <div class="artistPage-grid">
-            <div class="col center">
+        <div className="artistPage-grid">
+            <div className="col center">
               <h1>{name}</h1>
               <h2>{artistType}</h2>
-              <div class="img featured">
+              <div className="img featured">
                 <img src={recomendedWork1} alt="Recomended Work" width="" height="" />
-                {/* <p class="cp">Row House</p> */}
+                {/* <p className="cp">Row House</p> */}
               </div>
             </div>
-            <div class="col">
-              <div class="img"><img src={artistPhoto} alt={name} width="" height="" /></div>
+            <div className="col">
+              <div className="img"><img src={artistPhoto} alt={name} width="" height="" /></div>
               <h3>Sobre mí</h3>
               <p>{description}</p>
               <div className="social-icons">

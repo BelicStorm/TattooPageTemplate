@@ -6,6 +6,7 @@ const socialLinksDictionary ={
   }
 
 export const SocialButtons = ({socialLinks}) => {
+  
     return <>
               {
                 socialLinks.map(socialLink=>{

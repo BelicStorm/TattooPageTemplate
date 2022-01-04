@@ -4,7 +4,6 @@ import { Galeria } from "./galeria.component";
 
 export default function ListPaginatedImages({ data, actualPage, regs, location }) {
   // Triggers fetch for new page
-
   const PaginationController = () => {
     let actualPageis0 = actualPage === 1;
     let paginationRegs = regs < 10 ? 1 : regs
