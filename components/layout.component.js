@@ -67,6 +67,8 @@ const SocialLinks = () => {
   );
 };
 const Footer = () => {
+  let d = new Date(); 
+  let currentYear = d.getFullYear(); 
   return (
     <div className="footer">
       <div className="inner-footer">
@@ -85,7 +87,7 @@ const Footer = () => {
       </div>
       
       <div className="footer-bottom">
-        Copyright &copy; Cristian Pardo 2021
+        Copyright &copy; {currentYear} - Cristian Pardo - Todos los derechos reservados
       </div>
     </div>
   );

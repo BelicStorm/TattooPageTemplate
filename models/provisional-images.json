@@ -7,7 +7,7 @@
       "dateAdd":"fecha2",
       "author":"Bar Foo",
       "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":[]
+      "tags":["b"]
     },
     {
       "title":"work2",
@@ -16,7 +16,7 @@
       "dateAdd":"fecha3",
       "author":"Bar Foo",
       "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":[]
+      "tags":["b","c"]
     },
     {
       "title":"work3",
@@ -25,7 +25,7 @@
       "dateAdd":"fecha1",
       "author":"Bar Foo",
       "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":[]
+      "tags":["a","d"]
     },
     {
       "title":"work4",
@@ -34,7 +34,7 @@
       "dateAdd":"fecha3",
       "author":"Bar Foo",
       "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":[]
+      "tags":["a"]
     },
     {
       "title":"work5",
@@ -43,7 +43,7 @@
       "dateAdd":"fecha2",
       "author":"John Doe",
       "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":[]
+      "tags":["d"]
     },
     {
       "title":"work6",
