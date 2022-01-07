@@ -1,0 +1,67 @@
+.acordeon-checkbox {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  /* Accordion styles */
+  .acordeon-tabs {
+    overflow: hidden;
+  }
+  
+  .acordeon-tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  .acordeon-tab-label {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    padding: 1em;
+    background: black;
+    cursor: pointer;
+    /* Icon */
+  }
+  .acordeon-tab-label:hover {
+    background: #120000;
+  }
+  .acordeon-tab-label::after {
+    content: "❯";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+  }
+  .acordeon-tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: white;
+    border-top: 1px #f80000 solid;
+    background: black;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .acordeon-tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: black;
+    cursor: pointer;
+  }
+  .acordeon-tab-close:hover {
+    background: black;
+  }
+  
+  .acordeon-checkbox:checked + .acordeon-tab-label {
+    background: black;
+  }
+  .acordeon-checkbox:checked + .acordeon-tab-label::after {
+    transform: rotate(90deg);
+  }
+  .acordeon-checkbox:checked ~ .acordeon-tab-content {
+    max-height: fit-content;
+    padding: 1em;
+  }
