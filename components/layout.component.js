@@ -7,7 +7,7 @@ const Menu = ({ active }) => {
   const menu = [
     { sectionName: "galeria", showedName: "Galería", path: "/galeria" },
     { sectionName: "artistas", showedName: "Artistas", path: "/artistas" },
-    { sectionName: "contacto", showedName: "Contacto", path: "/" },
+    { sectionName: "contacto", showedName: "Contacto", path: "/contacto" },
     { sectionName: "tienda", showedName: "Tienda", path: "/" }
   ];
   const isActive = (section) => {

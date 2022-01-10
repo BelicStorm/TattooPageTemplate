@@ -77,7 +77,7 @@ const ArtistSection = ({ artists }) => {
       <Title center="Artistas del estudio" />
       <section className="artistsContainer">
         {artists.map((artist) => {
-          return <ArtistCard data={artist} />;
+          return <ArtistCard key={Math.random()} data={artist} />;
         })}
       </section>
       <Button buttonText="Más sobre nosotros" buttonHref="/" />
@@ -111,7 +111,7 @@ const ContactSection = () => {
             haveSocialButtons: false,
             socialLinks: undefined
           }}
-          actionButton={{ buttonHref: "/", buttonText: "Pide Cita" }}
+          actionButton={{ buttonHref: "/contacto", buttonText: "Pide Cita" }}
         />
       </div>
     </section>
