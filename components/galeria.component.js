@@ -1,4 +1,12 @@
 import { Button } from "./button.component";
+/* import Image from 'next/image' 
+<div className="gallery-image">
+              <Image src={url} 
+                    alt="Picture of the author"
+                    layout='fill'
+                    objectFit='contain'/>
+            </div>
+*/
 
 export const Galeria = ({ images }) => {
   return (

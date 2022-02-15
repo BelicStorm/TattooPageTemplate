@@ -194,6 +194,14 @@ p {
 .icon:hover {
   transform: scale(1.5);
 }
+.sponsorsContainer{
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.sponsorsContainer img{
+  width: 150px;
+}
 
 @media (max-width: 540px) {
   .upperHeading,
@@ -202,5 +210,17 @@ p {
   }
   .heading {
     font-size: 26px;
+  }
+}
+@media (max-width: 430px) {
+  .side {
+    width: 270px;
+    height: 240px;
+  }
+  .contactActions .button2 {
+    margin: 0.5em 0px;
+  }
+  .contactDescription{
+    font-size: 12px;
   }
 }

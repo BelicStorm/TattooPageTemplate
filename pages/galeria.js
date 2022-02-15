@@ -5,7 +5,7 @@ import { Title } from "../components/title.component";
 
 export default function GalleryPage({ data, actualPage,regs }) {
   return (
-    <Layout actual="galeria">
+    <Layout actual="galeria" metaData={{metaTitle:"Ragga Tattoo - Galería"}}>
       <section className="ArtContainer container-page">
         <Title
           upper={"Todo nuestro arte a tu alcance"}
@@ -27,7 +27,7 @@ export async function getServerSideProps({ query, req }) {
   let page = query.page ? parseInt(query.page) : 1;
   const actualAmountOfImages = `${page}0`;
   const { images } = await getImages(data, actualAmountOfImages, page);
-  /* const host = process.env.host; */
+
   if (images.length === 0) {
     return {
       notFound: true
@@ -38,7 +38,7 @@ export async function getServerSideProps({ query, req }) {
       data: images,
       actualPage: page,
       regs:imageReg
-      /* host: host */
+
     }
   };
 }

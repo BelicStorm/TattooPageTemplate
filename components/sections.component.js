@@ -23,7 +23,7 @@ const GalerySection = ({ images }) => {
 };
 const AboutUsSection = ({ artists }) => {
   return (
-    <div className="container aboutUs">
+    <div className="container aboutUs" id="sponsors">
       <Title center="Nuetsro Metodo" />
       <section className="policityWorkContainer">
         <div>
@@ -67,7 +67,6 @@ const AboutUsSection = ({ artists }) => {
           </p>
         </div>
       </section>
-      <Button buttonText="Más sobre nosotros" buttonHref="/" />
     </div>
   );
 };
@@ -81,6 +80,19 @@ const ArtistSection = ({ artists }) => {
         })}
       </section>
       <Button buttonText="Más sobre nosotros" buttonHref="/" />
+    </div>
+  );
+};
+const Sponsors = ({ sponsors }) => {
+  return (
+    <div className="container aboutUs">
+      <Title center="Confían en nosotros" />
+      <section className="sponsorsContainer">
+        {sponsors.map(({name,page,image}) => {
+          return <a key={name} href={page}><img src={image}></img></a>
+        })}
+      </section>
+      
     </div>
   );
 };
@@ -117,4 +129,4 @@ const ContactSection = () => {
     </section>
   );
 };
-export { GalerySection, ArtistSection, ContactSection, AboutUsSection };
+export { GalerySection, ArtistSection, ContactSection, AboutUsSection,Sponsors };

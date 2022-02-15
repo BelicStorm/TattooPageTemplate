@@ -9,13 +9,13 @@
   grid-auto-rows: max-content;
   grid-auto-flow: row;
   justify-content: center;
-  gap: 12px;
+  gap: 1em;
 }
 
 .artistContainer {
-  max-height: 800px;
+ /*  max-height: 800px;
   max-width: 1280px;
-  min-height: 400px;
+  min-height: 400px; */
   display: flex;
   justify-content: space-around;
   align-items: center;

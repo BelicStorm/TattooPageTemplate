@@ -4,9 +4,9 @@ function paginate(array, page_size, page_number) {
 }
 
 let imageReg;
-export const getImages = async (data, ofset, next) => {
+export const getImages = async (data, ofset, page_number) => {
   try {
-    const dataPaginated = paginate(data, ofset, next);
+    const dataPaginated = paginate(data, ofset, page_number);
     imageReg = data.length;
 /*     console.log("aaaaa", dataPaginated); */
 

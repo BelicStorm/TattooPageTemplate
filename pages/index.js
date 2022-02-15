@@ -4,20 +4,22 @@ import {
   ArtistSection,
   ContactSection,
   GalerySection,
-  AboutUsSection
+  AboutUsSection,
+  Sponsors
 } from "../components/sections.component";
 
-export default function Home({ homeImages, homeArtists }) {
+export default function Home({ homeImages, homeArtists, sponsors }) {
   return (
-    <Layout actual="home">
+    <Layout actual="home" metaData={{}}>
       <div className="main-wrapper">
-        {/* Section 1 */}
+       
         <GalerySection images={homeImages} />
-        {/* Section 2 */}
+    
         <ArtistSection artists={homeArtists} />
-        {/* Section 3 */}
+        <Sponsors sponsors={sponsors} />
+       
         <AboutUsSection />
-        {/* Section 4 */}
+
         <ContactSection />
       </div>
     </Layout>
@@ -25,17 +27,22 @@ export default function Home({ homeImages, homeArtists }) {
 }
 
 export async function getServerSideProps(context) {
+  //import de los trabajos
+  const { sponsors } = await import(
+    `../models/sponsors.json`
+  );
   const { images: imagesData } = await import(
     `../models/provisional-images.json`
   );
+  //import de los datos de los artistas
   const { artistas } = await import(`../models/provisional-artists.json`);
-  const { images } = await getImages(imagesData, 8, 1);
-  /* console.log(artistas); */
+  const { images } = await getImages(imagesData, 8, 1); // data, cantidad de imagenes, número de la pagina actual
 
   return {
     props: {
       homeImages: images,
-      homeArtists: artistas
+      homeArtists: artistas,
+      sponsors:sponsors
     } // will be passed to the page component as props
   };
 }

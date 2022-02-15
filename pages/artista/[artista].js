@@ -11,7 +11,7 @@ export default function ArtistDetails({homeArtists,images,actualPage,regs}) {
   artistType = !tattoo && piercing ? "Piercing Artist" : artistType;
   artistType = tattoo && piercing ? "Tattoo & Piercing" : artistType;
   return (
-    <Layout actual="artistas">
+    <Layout actual="artistas" metaData={{metaTitle:`Raga Tattoo - ${name}`, metaDesc:`Conoce a ${name}, ${artistType} en Ragga Tattoo. Descubre sus trabajos y accede a sus redes sociales para saber más de su arte.- Teléfono: 669 56 44 58 - Dirección: Av. d'Albaida, 12, 46870 Ontinyent, Valencia`}}>
       <section className="ArtContainer container-page">
         <div className="artistPage-grid">
             <div className="col center">

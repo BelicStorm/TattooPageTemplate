@@ -7,7 +7,7 @@ import { getImages, imageReg } from "../../utils/image.utils";
 export default function ArtistDetails({ work, relatedWork,actualPage,regs }) {
     const { title, url, type, dateAdd, author, tags, description } = work
     return (
-        <Layout actual="artistas">
+        <Layout actual="artistas"  metaData={{metaTitle:`Raga Tattoo - ${title}`, metaDesc:`${title}, creado por ${author}. ${description}- Teléfono: 669 56 44 58 - Dirección: Av. d'Albaida, 12, 46870 Ontinyent, Valencia`}}>
             <section className="ArtContainer container-page">
                 <div className="artistPage-grid">
                     <div className="col center">

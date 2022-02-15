@@ -81,7 +81,7 @@
   z-index: 100000;
   position: fixed;
   bottom: 2em;
-  background-color: #120000;
+  /* background-color: #120000; */
 }
 .social-Icons-Wrapper .icon {
   padding: 14px;

@@ -184,7 +184,8 @@ const PiercingContact = () => {
 
 
 export default function ContactFormTest() {
-    return <Layout actual="contacto">
+    return <Layout actual="contacto" metaData={{metaTitle:"Ragga Tattoo - Contactanos",
+                                                metaDesc:"Contacta con nosotros y te guiaremos para que pidas cita y obtengas tu porximo tatuaje o piercing. - Teléfono: 669 56 44 58 - Dirección: Av. d'Albaida, 12, 46870 Ontinyent, Valencia"}}>
            <div className="contactFormsContainer">
             <Title center="Contacta con nosotros" sub={"Te guiamos para que pidas cita"}></Title>
             <Acordeon childs={[
