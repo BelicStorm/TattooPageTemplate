@@ -1,5 +1,6 @@
 import Link from "next/dist/client/link";
 import { useEffect } from "react";
+import Modal from "./modal.component";
 import { Galeria } from "./galeria.component";
 
 export default function ListPaginatedImages({ data, actualPage, regs, location }) {
@@ -16,7 +17,7 @@ export default function ListPaginatedImages({ data, actualPage, regs, location }
               ? <i className="arrow-left"></i>
               : <Link href={{pathname:`/${location}`,query:{page:actualPage-1}}} ><i className="arrow-left"></i></Link>
         }
-        <div>Filtros</div>
+        {/* <Modal/> */}
         {
           actualPageIsTheLastPage 
             ? <i className="arrow-right"></i>
