@@ -79,7 +79,7 @@ const ArtistSection = ({ artists }) => {
           return <ArtistCard key={Math.random()} data={artist} />;
         })}
       </section>
-      <Button buttonText="Más sobre nosotros" buttonHref="/" />
+      <Button buttonText="Más sobre nosotros" buttonHref="/artistas" />
     </div>
   );
 };
