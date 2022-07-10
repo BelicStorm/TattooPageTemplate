@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Layout from "../components/layout.component";
+import {SocialButtons} from "../components/socialButtons.component";
 import { getImages } from "../utils/image.utils";
 import {
   ArtistSection,
