@@ -28,7 +28,11 @@ export default function Home() {
             height="60"
           />
       <Title center="Pagina bajo mantenimiento..." />
-      <div className="social-Icons-Wrapper">
+      <div style={{
+            "bottom": "2em",
+            "display": "flex",
+            "position": "inherit"
+      }}className="social-Icons-Wrapper">
         <SocialButtons socialLinks={["Facebook", "Instagram"] }/>
       </div>
     </div>
