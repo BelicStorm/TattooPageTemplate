@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Layout from "../components/layout.component";
 import { getImages } from "../utils/image.utils";
 import {
