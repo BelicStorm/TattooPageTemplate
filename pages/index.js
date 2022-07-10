@@ -28,7 +28,7 @@ export default function Home() {
           />
       <div className="social-Icons-Wrapper">
         <Title center="Pagina bajo en mantenimiento..." />
-        <SocialButtons socialLinks={["Facebook", "Instagram", "Twitter"]} />
+        <SocialButtons socialLinks={["Facebook", "Instagram"] }/>
       </div>
     </div>
     // <Layout actual="home" metaData={{}}>
