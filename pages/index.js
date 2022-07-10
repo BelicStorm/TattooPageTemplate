@@ -18,7 +18,8 @@ export default function Home() {
       "width": "100%",
       "height": "500px",
       "justifyContent": "center",
-      "alignItems": "center"
+      "alignItems": "center",
+      "flexDirection": "column"
     }}>
       <Image
             src={`/media/logo.png`}
@@ -26,7 +27,7 @@ export default function Home() {
             width="60"
             height="60"
           />
-      <Title center="Pagina bajo en mantenimiento..." />
+      <Title center="Pagina bajo mantenimiento..." />
       <div className="social-Icons-Wrapper">
         <SocialButtons socialLinks={["Facebook", "Instagram"] }/>
       </div>
