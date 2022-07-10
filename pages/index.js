@@ -27,7 +27,7 @@ export default function Home() {
             width="60"
             height="60"
           />
-      <Title center="Pagina bajo mantenimiento..." />
+      <Title center="Página bajo mantenimiento..." />
       <div style={{
             "bottom": "2em",
             "display": "flex",
