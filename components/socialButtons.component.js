@@ -2,7 +2,7 @@ import Image from 'next/image'
 const socialLinksDictionary ={
     "Facebook":{link:"https://www.facebook.com/RagaTattoo/",img:`/media/facebook.svg`},
     "Instagram":{link:"https://www.instagram.com/ragatattoo/?hl=es",img:`/media/instagram.svg`},
-    "Twitter":{link:"https://twitter.com/TwitterDev/",img:`/media/twitter.svg`},
+    // "Twitter":{link:"https://twitter.com/TwitterDev/",img:`/media/twitter.svg`},
   }
 
 export const SocialButtons = ({socialLinks}) => {
