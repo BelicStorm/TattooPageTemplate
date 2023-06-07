@@ -72,9 +72,11 @@
   line-height: normal;
   width: 100%;
   box-sizing: border-box;
-  border: #3a3a3a 1px solid;
+  border: var(--principal-color) 1px solid;
   color: white;
   position: relative;
+  background: #00000036;
+
 }
 .customSelect:placeholder, .form .select:placeholder, .form .textarea:placeholder, .form .text-input:placeholder, .form .option-input + label:placeholder, .form .checkbox-input + label:placeholder {
   color: white;
@@ -93,7 +95,7 @@
 }
 .form:not(.has-magic-focus) .customSelect.customSelectFocus, .form:not(.has-magic-focus) .customSelect:active, .form:not(.has-magic-focus) .select:active, .form:not(.has-magic-focus) .textarea:active, .form:not(.has-magic-focus) .text-input:active, .form:not(.has-magic-focus) .option-input + label:active, .form:not(.has-magic-focus) .checkbox-input + label:active, .form:not(.has-magic-focus) .customSelect:focus, .form:not(.has-magic-focus) .select:focus, .form:not(.has-magic-focus) .textarea:focus, .form:not(.has-magic-focus) .text-input:focus, .form:not(.has-magic-focus) .option-input + label:focus, .form:not(.has-magic-focus) .checkbox-input + label:focus {
   background: #303030;
-  border: #f80000 1px solid;
+  border: var(--principal-color) 1px solid;
 }
 
 .form .message {
@@ -134,15 +136,15 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: #f80000 1px solid;
+  border: var(--principal-color) 1px solid;
 }
 
 .form .button {
   font: inherit;
   line-height: normal;
   cursor: pointer;
-  background: #000;
-  border: #f80000 1px solid;
+  /* background: #000; */
+  border: var(--principal-color) 1px solid;
   color: white;
   width: auto;
   margin-left: auto;
@@ -151,7 +153,7 @@
 }
 .form .button:hover, .form .button:focus, .form .button:active {
   color: white;
-  border-color: #f80000;
+  border-color: var(--principal-color);
 }
 .form .button:active {
   position: relative;

@@ -1,15 +1,31 @@
 .HomeImage {
-    background: url('https://i.postimg.cc/VN9yK5pf/landing-bg.jpg');
+    /* background: url('/media/hero-logo.png'); */
+    filter: drop-shadow(14px 13px 21px #000);
 }
 .BigImage {
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 75vh;
-    margin-top: 4em;
-    background-size: cover;
-    background-position: center 
+    height: 90vh;
+    max-height: 752px;
+    /* margin-top: 4em; */
+    /* background-size: contain; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
+.homeTitleSectionButtonGroup{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 12px;
+}
+.homeTitleSectionButtonGroup .button2{
+    margin: 0px 0px 1rem 0px;
+}
+.BigImage img{
+    width: 100%;
+    max-width: 1220px;
 }
 .homeSection {
     width: 100%;
@@ -18,10 +34,10 @@
 .sectionTitle {
     width: 100%;
     height: 100%;
-    background: #1200008f;
+    /* background: #1200008f; */
     max-width: 300px;
     max-height: 150px;
-    border: 1px #F40000 solid;
+    /* border: 1px #F40000 solid; */
     font-family: "Kanit", sans-serif;
     font-size: 1rem;
     font-weight: 400;

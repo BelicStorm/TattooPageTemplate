@@ -19,17 +19,18 @@
     overflow: hidden;
   }
   .acordeon-tab-label {
+    font-size: 22px;
     display: flex;
     justify-content: space-between;
     font-family: "Kanit", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     padding: 1em;
-    background: black;
+    background: var(--black);
     cursor: pointer;
     /* Icon */
   }
   .acordeon-tab-label:hover {
-    background: #120000;
+    background: #12000078;
   }
   .acordeon-tab-label::after {
     content: "❯";
@@ -42,8 +43,8 @@
     max-height: 0;
     padding: 0 1em;
     color: white;
-    border-top: 1px #f80000 solid;
-    background: black;
+    border-top: 1px var(--principal-color) solid;
+    background: var(--black);
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
   }
@@ -52,15 +53,15 @@
     justify-content: flex-end;
     padding: 1em;
     font-size: 0.75em;
-    background: black;
+    background: var(--black);
     cursor: pointer;
   }
   .acordeon-tab-close:hover {
-    background: black;
+    background: var(--black);
   }
   
   .acordeon-checkbox:checked + .acordeon-tab-label {
-    background: black;
+    background: var(--black);
   }
   .acordeon-checkbox:checked + .acordeon-tab-label::after {
     transform: rotate(90deg);

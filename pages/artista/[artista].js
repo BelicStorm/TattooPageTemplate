@@ -1,9 +1,20 @@
+import React from "react";
+import { Galeria } from "../../components/galeria.component";
 import Layout from "../../components/layout.component";
-import ListPaginatedImages from "../../components/pagination.component";
 import { SocialButtons } from "../../components/socialButtons.component";
 import { Title } from "../../components/title.component";
 import { getImages, imageReg } from "../../utils/image.utils";
-export default function ArtistDetails({homeArtists,images,actualPage,regs}) {
+export default function ArtistDetails({homeArtists,images}) {
+
+  const initialPostList = 6; // Number of articles to display initially
+  const incrementInitialPostList = 6; // Number of articles to add each time the "load more" button is clicked
+  const [displayPosts, setDisplayPosts] = React.useState(initialPostList);
+  const [articles, setArticles] = React.useState(images);
+
+  const loadMore = () => {
+    setDisplayPosts(displayPosts + incrementInitialPostList)
+  }
+
   const { name, aptitude, artistPhoto, social, description,recomendedWork1 } = homeArtists;
   const { tattoo, piercing } = aptitude;
   let artistType = "";
@@ -35,12 +46,10 @@ export default function ArtistDetails({homeArtists,images,actualPage,regs}) {
           <Title
               center="Trabajos del Artista"
           ></Title>
-           <ListPaginatedImages
-              data={images}
-              actualPage={actualPage}
-              location={`artista/${name}`}
-              regs={regs}
-            />
+          <Galeria images={images} displayPosts={displayPosts}/>
+          {displayPosts < articles.length ? ( 
+            <button className="button2" onClick={loadMore}>Ver más</button>
+          ) : null}
        </div>
       </section>
 
@@ -57,11 +66,8 @@ export async function getServerSideProps(context) {
   const artistWork = works.images.filter((image)=>{
     return image.author === actualArtist
   })
-  let page = context.query.page ? parseInt(context.query.page) : 1;
-  const actualAmountOfImages = `${page}0`;
-  const { images } = await getImages(artistWork, actualAmountOfImages, page);
 
-  if (!artistData) {
+  if (!artistWork) {
     return {
       notFound: true,
     }
@@ -69,9 +75,9 @@ export async function getServerSideProps(context) {
   return {
     props: {
       homeArtists: artistData,
-      images:images,
-      actualPage:page,
-      regs:imageReg
+      images:artistWork,
+      // actualPage:page,
+      // regs:imageReg
     } // will be passed to the page component as props
   };
 }

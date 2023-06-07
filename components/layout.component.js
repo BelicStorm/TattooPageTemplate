@@ -9,8 +9,8 @@ const Menu = ({ active, metaData }) => {
   const menu = [
     { sectionName: "galeria", showedName: "Galería", path: "/galeria" },
     { sectionName: "artistas", showedName: "Artistas", path: "/artistas" },
-    { sectionName: "contacto", showedName: "Contacto", path: "/contacto" },
-    { sectionName: "tienda", showedName: "Tienda", path: "/" }
+    // { sectionName: "contacto", showedName: "Contacto", path: "/contacto" },
+    // { sectionName: "tienda", showedName: "Tienda", path: "/" }
   ];
 
   const isActive = (section) => {
@@ -46,7 +46,7 @@ const Menu = ({ active, metaData }) => {
       <nav className="navbar">
         <a className="brand" href="/">
           <Image
-            src={`/media/logo.png`}
+            src={`/media/logo.svg`}
             alt="Raga Tattoo"
             width="60"
             height="60"
@@ -83,19 +83,24 @@ const Footer = () => {
     <div className="footer">
       <div className="inner-footer">
         <div className="footer-items">
-          <h2>Company Name</h2>
-          <p>Description of any product or motto of the company.</p>
+          <h2>Raga Tattoo</h2>
+          <p>
+              Somos un estudio con larga trayectoria de Tattoo y Piercing en Ontinyent. 
+              Disponemos de excelentes profesionales con diferentes estilos para cumplir con tus expectativas.
+              También disponemos de un profesional dedicado en exclusiva a los piercing.
+          </p>
         </div>
         <div className="footer-items">
           <h3>Contact us</h3>
-            <ul>
-              <li>XYZ, abc</li>
-              <li>123456789</li>
-              <li>xyz@gmail.com</li>
-            </ul> 
+            <div>
+              <p>Dirección: Av. d'Albaida, 12, 46870 Ontinyent, Valencia</p>
+              <p>669 56 44 58</p>
+            </div> 
+            <div style={{display:"flex", width:"100%", justifyContent:"center"}}>
+              <SocialButtons socialLinks={["Facebook", "Instagram", "Twitter"]} />
+            </div>
         </div>
       </div>
-      
       <div className="footer-bottom">
         Copyright &copy; {currentYear} - Cristian Pardo - Todos los derechos reservados
       </div>

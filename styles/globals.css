@@ -9,17 +9,28 @@
 @import "./acordeon.module.css";
 @import "./modal.module.css";
 @import "./404.module.css";
-
-
-
+/*  */
+:root{
+  --principal-color: #f6c200;
+  --black: #000000;
+}
+.socialLink{
+  -webkit-filter: grayscale(100%) brightness(120%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7);
+  filter: grayscale(200%) brightness(240%) sepia(100%) hue-rotate(5deg) saturate(500%) contrast(1);
+}
 body {
   margin: 0;
-  background-color: #000000;
+  background-color: var(--black);
+  background-image: url("/media/dust-overlay-2.png");
 }
 
 .main-wrapper {
   min-height: 100px;
-  scrollbar-color: #f80000;
+  display: flex;
+  scrollbar-color: var(--principal-color);
+  flex-flow: column;
+  gap: 3rem;
+  
 }
 .divider {
   border: 1px solid #e3e3e3;
@@ -36,8 +47,8 @@ body {
   margin: 30px auto;
   width: 16px;
   height: 16px;
-  border-top: 2px solid rgb(255, 00, 00);
-  border-left: 2px solid rgb(255, 00, 00);
+  border-top: 2px solid var(--principal-color);
+  border-left: 2px solid var(--principal-color);
 }
 .arrow-right:hover::after,
 .arrow-left:hover::after,
@@ -47,7 +58,7 @@ body {
   display: block;
   width: 2px;
   height: 45px;
-  background-color: rgb(255, 0, 0);
+  background-color: var(--principal-color);
   transform: rotate(-45deg) translate(15px, 4px);
   left: 0;
   top: 0;
@@ -68,13 +79,13 @@ body {
   display: block;
   width: 2px;
   height: 45px;
-  background-color: rgb(255, 0, 0);
+  background-color: var(--principal-color);
   transform: rotate(-45deg) translate(15px, 4px);
   left: 0;
   top: 0;
 }
 .arrow {
-  border: solid #f80000;
+  border: solid var(--principal-color);
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 16px;
@@ -98,14 +109,16 @@ body {
 .textSide {
   position: relative;
   padding: 2%;
-  border: #f80000 1px solid;
+  border-radius: 12px;
+  /* border: var(--principal-color) 1px solid; */
+  background: #00000094;
 }
 
 .button {
   font-family: "Kanit", sans-serif;
   font-weight: 300;
-  border: 1px solid #f80000;
-  background-color: #120000;
+  border: 1px solid var(--principal-color);
+  background-color: var(--black);
   padding: 16px;
   text-decoration: none;
   color: #fff;
@@ -115,19 +128,24 @@ body {
 .button2 {
   font-family: "Kanit", sans-serif;
   font-weight: 300;
-  border: 1px solid #f80000;
-  background-color: #120000;
+  border: 1px solid var(--principal-color);
+  background-color: var(--black);
   padding: 16px;
   text-decoration: none;
   color: #fff;
+  font-size: 20px;
   cursor: pointer;
+  max-width: -moz-max-content;
   max-width: max-content;
   transition: background-color 70ms ease-out 5ms;
   margin: 1.5em 0px;
 }
 .button2:hover,
 .button:hover {
-  background-color: #f80000;
+  background-color: var(--principal-color);
+  color: black;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
 }
 .upperHeading {
   font-family: "Kanit", sans-serif;
@@ -147,7 +165,8 @@ body {
   text-align: center;
   letter-spacing: 10px;
   margin: 2rem 0;
-  color: #f80000;
+  color: var(--principal-color);
+  text-shadow: 12px 5px 12px #000;
 }
 .heading::after {
   content: "";
@@ -158,16 +177,16 @@ body {
 }
 .subHeading {
   font-family: "Kanit", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 3px;
-  margin-top: -30px;
+  margin-top: -22px;
   margin-bottom: 2rem;
   color: #fff;
 }
 .container {
-  padding: 1rem 0px;
+  margin: 3rem 0px;
 }
 .container-page {
   padding: 4rem 0px;
@@ -196,14 +215,32 @@ p {
   transform: scale(1.5);
 }
 .sponsorsContainer{
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 0.23fr);
+  grid-gap: 2rem;
+  grid-gap: 5rem;
+  gap: 5rem;
+  background: #00000094;
+  padding: 2rem;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  max-width: 645px;
+  width: 100%;
 }
-.sponsorsContainer img{
-  width: 150px;
+.sponsorsContainer a {
+    justify-self: center;
 }
+.sponsorsContainer a img{
+  width: 200px;
 
+}
+@media (max-width: 765px){
+  .sponsorsContainer {
+      grid-template-columns: repeat(1, 1fr);
+      width: 300px;
+  }
+}
 @media (max-width: 540px) {
   .upperHeading,
   .subHeading {

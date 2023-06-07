@@ -51,7 +51,7 @@
   
 .artistPage-grid  h3 {
     font-size: 26px;
-    color: #f80000;
+    color: var(--principal-color);
     font-weight: 600;
     letter-spacing: 0.05rem;
   }
@@ -126,7 +126,7 @@
   }
 .artistPage-grid a {
   text-decoration: none;
-  color: #f80000;
+  color: var(--principal-color);
   font-size: 25px;
   margin: 0px 12px;
   font-weight: 300;

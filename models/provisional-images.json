@@ -1,256 +1,1764 @@
 {
   "images": [
     {
-      "title":"work1",
-      "url":"https://i.pinimg.com/736x/d7/32/c8/d732c81e157c2ede834e5584699a81a6.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha2",
-      "author":"Bar Foo",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["b"]
+      "title": "Gabo11",
+      "url": "https://www.dropbox.com/s/fbufp76zbsgk0hg/ragatattoo_324398039_1099212024086488_7910850297122667669_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work2",
-      "url":"/tatto-test/1.jpeg",
-      "type":"piercing",
-      "dateAdd":"fecha3",
-      "author":"Bar Foo",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["b","c"]
+      "title": "Alba4",
+      "url": "https://www.dropbox.com/s/icj9q1sn7x062mv/ragatattoo_333136197_561911599234010_8095658655856524087_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
     },
     {
-      "title":"work3",
-      "url":"/tatto-test/2.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha1",
-      "author":"Bar Foo",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["a","d"]
+      "title": "Judith14",
+      "url": "https://www.dropbox.com/s/l5wirbhb4aoy65x/ragatattoo_202505830_346925706788764_912260633405679460_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
     },
     {
-      "title":"work4",
-      "url":"/tatto-test/3.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha3",
-      "author":"Bar Foo",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["a"]
+      "title": "Gabo64",
+      "url": "https://www.dropbox.com/s/pvikrz4hgxuvtok/gabo_ragatattoo_330431737_503820851922152_8874092092313118300_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work5",
-      "url":"https://i.pinimg.com/736x/d7/32/c8/d732c81e157c2ede834e5584699a81a6.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha2",
-      "author":"John Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["d"]
+      "title": "Gabo36",
+      "url": "https://www.dropbox.com/s/bv8e2m4kprtefm4/ragatattoo_240775147_4773576082677181_5234358548325243483_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work6",
-      "url":"/tatto-test/1.jpeg",
-      "type":"piercing",
-      "dateAdd":"fecha3",
-      "author":"Jane Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["a","b"]
+      "title": "Gabo50",
+      "url": "https://www.dropbox.com/s/0hckjwagoawt4vj/ragatattoo_121710673_1350158762016625_80288240741610813_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work7",
-      "url":"/tatto-test/2.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha1",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["c","a"]
+      "title": "Alba9",
+      "url": "https://www.dropbox.com/s/b4u62lnndxa7gln/ragatattoo_320733491_1501287120358295_5018343711143774270_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
     },
     {
-      "title":"work8",
-      "url":"/tatto-test/3.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha3",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["c","b"]
+      "title": "Nestor6",
+      "url": "https://www.dropbox.com/s/npereb38mwecds1/ragatattoo_311933781_847825686232869_3728665352318281387_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
     },
     {
-      "title":"work9",
-      "url":"/tatto-test/4.jpg",
-      "type":"piercing",
-      "dateAdd":"fecha1",
-      "author":"Jane Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["b"]
+      "title": "Gabo22",
+      "url": "https://www.dropbox.com/s/k6sy6sttujhvc4r/ragatattoo_295929392_3315168442098778_766421802082097531_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work10",
-      "url":"https://i.pinimg.com/736x/d7/32/c8/d732c81e157c2ede834e5584699a81a6.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha1",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["c","d"]
+      "title": "Alba19",
+      "url": "https://www.dropbox.com/s/k71ati69cgca48h/alba_ferrero.tattoo_319717610_636805051461105_7838004560868868978_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
     },
     {
-      "title":"work11",
-      "url":"/tatto-test/1.jpeg",
-      "type":"tattoo",
-      "dateAdd":"fecha2",
-      "author":"John Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["a","d"]
+      "title": "Gabo1",
+      "url": "https://www.dropbox.com/s/ohk7pisf1qrmk0w/ragatattoo_341909021_234718669145972_8900458503270033472_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work12",
-      "url":"/tatto-test/3.jpg",
-      "type":"piercing",
-      "dateAdd":"fecha3",
-      "author":"Jane Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["c","a"]
+      "title": "Gabo79",
+      "url": "https://www.dropbox.com/s/7msu7a3jj3cnqn4/gabo_ragatattoo_244715779_868785477156976_7701507443310197614_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work13",
-      "url":"/tatto-test/2.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha1",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["c","a"]
+      "title": "Gabo12",
+      "url": "https://www.dropbox.com/s/26bncybud4e3nqw/ragatattoo_323580384_830967191318378_8238780131262104925_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work14",
-      "url":"https://i.pinimg.com/736x/d7/32/c8/d732c81e157c2ede834e5584699a81a6.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha3",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["b","a"]
+      "title": "Nestor19",
+      "url": "https://www.dropbox.com/s/ol7wcribgahqcs5/nmgtattoo_155557105_718433842054208_4661616818158886187_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
     },
     {
-      "title":"work15",
-      "url":"/tatto-test/2.jpg",
-      "type":"piercing",
-      "dateAdd":"fecha1",
-      "author":"Jane Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["d","a"]
+      "title": "Gabo43",
+      "url": "https://www.dropbox.com/s/zvtreb6c43qn2mg/ragatattoo_160570899_3884611848242896_2892301464547690447_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work16",
-      "url":"/tatto-test/1.jpeg",
-      "type":"tattoo",
-      "dateAdd":"fecha1",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["d"]
+      "title": "Gabo25",
+      "url": "https://www.dropbox.com/s/9vfclr4ert5zphw/ragatattoo_289342949_133892715983429_5425750260497664042_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work17",
-      "url":"/tatto-test/3.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha2",
-      "author":"John Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["a"]
+      "title": "Gabo10",
+      "url": "https://www.dropbox.com/s/z5xw51avr10s44z/ragatattoo_325968515_201105812472148_7573828164577736295_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work18",
-      "url":"/tatto-test/4.jpg",
-      "type":"piercing",
-      "dateAdd":"fecha3",
-      "author":"Jane Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["c"]
+      "title": "Gabo67",
+      "url": "https://www.dropbox.com/s/jwtioqcdms2a1qc/gabo_ragatattoo_312625952_531373932138584_7778957966567722780_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work19",
-      "url":"/tatto-test/2.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha1",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["a"]
+      "title": "Judith3",
+      "url": "https://www.dropbox.com/s/osl7o2wquvra090/ragatattoo_322031499_1223775338218673_1844673618345399871_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
     },
     {
-      "title":"work20",
-      "url":"https://i.pinimg.com/736x/d7/32/c8/d732c81e157c2ede834e5584699a81a6.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha3",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["d"]
+      "title": "Nestor1",
+      "url": "https://www.dropbox.com/s/xxlblmrei90xdf6/ragatattoo_326550067_1880027149043211_6337312433088839177_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
     },
     {
-      "title":"work21",
-      "url":"/tatto-test/4.jpg",
-      "type":"piercing",
-      "dateAdd":"fecha1",
-      "author":"Jane Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["b"]
+      "title": "Gabo35",
+      "url": "https://www.dropbox.com/s/5sts28k43f3y409/ragatattoo_241995897_326923625787879_8256539356267019262_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work22",
-      "url":"/tatto-test/3.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha1",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["a"]
+      "title": "Gabo84",
+      "url": "https://www.dropbox.com/s/jkm2kjh219vd5hh/gabo_ragatattoo_123604909_638220666858661_8622166174442324902_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work23",
-      "url":"/tatto-test/2.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha2",
-      "author":"John Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["b"]
+      "title": "Judith1",
+      "url": "https://www.dropbox.com/s/0k7v0lewm1ojfsi/ragatattoo_340983638_214746291156385_1264114661048183979_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
     },
     {
-      "title":"work24",
-      "url":"/tatto-test/3.jpg",
-      "type":"piercing",
-      "dateAdd":"fecha3",
-      "author":"Jane Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["c"]
+      "title": "Gabo59",
+      "url": "https://www.dropbox.com/s/wf78fctjv1fz6ol/gabo_ragatattoo_334559455_1307949793117530_6297991883891853755_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work25",
-      "url":"/tatto-test/4.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha1",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["d"]
+      "title": "Alba12",
+      "url": "https://www.dropbox.com/s/x1nhasdi2z9ofl6/ragatattoo_286205358_1228596544648728_7633296820601857360_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
     },
     {
-      "title":"work26",
-      "url":"https://i.pinimg.com/736x/d7/32/c8/d732c81e157c2ede834e5584699a81a6.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha3",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["d"]
+      "title": "Gabo78",
+      "url": "https://www.dropbox.com/s/ggw6gmp33ymcamv/gabo_ragatattoo_245528738_1011132182797141_2508028617338744078_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work27",
-      "url":"/tatto-test/1.jpeg",
-      "type":"piercing",
-      "dateAdd":"fecha1",
-      "author":"Jane Doe",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["a"]
+      "title": "Gabo6",
+      "url": "https://www.dropbox.com/s/ts22587ytmqcn02/ragatattoo_332273828_742273360862665_7243358674065406569_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
     },
     {
-      "title":"work28",
-      "url":"/tatto-test/2.jpg",
-      "type":"tattoo",
-      "dateAdd":"fecha1",
-      "author":"Foo Bar",
-      "description":"A tattoo is a permanent kind of body art. A design is made by puncturing the skin with needles and injecting ink, dyes, and pigments into the deep layer of the skin.",
-      "tags":["b","c"]
+      "title": "Gabo32",
+      "url": "https://www.dropbox.com/s/rzh2v5jougxqfg7/ragatattoo_271639112_124007300122004_1033936417197338007_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo44",
+      "url": "https://www.dropbox.com/s/o7fwdvu8n5eiwww/ragatattoo_152259993_2491164487857071_9056555898013343878_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Judith6",
+      "url": "https://www.dropbox.com/s/h3s7xj5jzooo1pa/ragatattoo_311458201_521188613166618_3420397957247536697_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Gabo51",
+      "url": "https://www.dropbox.com/s/kekg62om3rumpdc/ragatattoo_120516409_3588580271258910_1072920167140075615_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo54",
+      "url": "https://www.dropbox.com/s/jsp9xczi6rw3c39/ragatattoo_117028214_242709900047839_3398464296209749240_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Judith2",
+      "url": "https://www.dropbox.com/s/y77di17fl3agvms/ragatattoo_337121167_1411747932694719_7479686955194708472_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Judith7",
+      "url": "https://www.dropbox.com/s/73i3j5uyr9bg0o0/ragatattoo_299685824_606767897510282_5520577398213241022_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Gabo75",
+      "url": "https://www.dropbox.com/s/fl65vy4s0l7febh/gabo_ragatattoo_265207121_253121160082000_7897255434594799007_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba14",
+      "url": "https://www.dropbox.com/s/t2rzjcos1rqg31u/ragatattoo_265398533_276343434546312_1595330645200179210_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Alba11",
+      "url": "https://www.dropbox.com/s/zip7qkadoau0fmp/ragatattoo_287265544_3212589165692817_1740469407114572709_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo71",
+      "url": "https://www.dropbox.com/s/axw8vtlxgx0iwaa/gabo_ragatattoo_279266228_565223008285143_7551484939674986379_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba18",
+      "url": "https://www.dropbox.com/s/gu4655x2oqtxvab/ragatattoo_128083028_925472661620702_8374859281786528973_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo46",
+      "url": "https://www.dropbox.com/s/dyap21ke2l4p75s/ragatattoo_132458786_858736241553962_1108851791782723023_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo9",
+      "url": "https://www.dropbox.com/s/61lemdm9ligwou9/ragatattoo_327322310_1291161108110410_3581929286958514465_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba8",
+      "url": "https://www.dropbox.com/s/9b2xbeh9a334w0w/ragatattoo_322202657_140735532123501_2803204329738630385_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo83",
+      "url": "https://www.dropbox.com/s/nelvubaaje5suvb/gabo_ragatattoo_126118877_290145182369901_3118467304819458347_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo7",
+      "url": "https://www.dropbox.com/s/ejpi8g6o3q35xzs/ragatattoo_330839849_210087131504552_2996384776300334680_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo19",
+      "url": "https://www.dropbox.com/s/0a3uasd7zrvbfsy/ragatattoo_305885677_921563528803156_6053480313435504876_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo18",
+      "url": "https://www.dropbox.com/s/x4wabaxe5jvc29a/ragatattoo_308522298_2473502486123976_2674326102207760019_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor5",
+      "url": "https://www.dropbox.com/s/mplta5yzodbkmd9/ragatattoo_312023789_1508474202985349_8969539512808526965_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Alba26",
+      "url": "https://www.dropbox.com/s/dqccsdehz0d10ph/alba_ferrero.tattoo_158164302_347970189925033_8922685537731238183_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo76",
+      "url": "https://www.dropbox.com/s/gmn41j7vmy71eri/gabo_ragatattoo_249165698_410220870609816_535707735383751326_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo42",
+      "url": "https://www.dropbox.com/s/k9akma6w49wnz4k/ragatattoo_169464989_178613334095367_6794895512325484170_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo81",
+      "url": "https://www.dropbox.com/s/e6k9hr988burgzg/gabo_ragatattoo_169584013_296724008755088_3452500866627952933_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo27",
+      "url": "https://www.dropbox.com/s/8kyfozw688gstvg/ragatattoo_279872648_515210320240533_4391027023685584493_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo47",
+      "url": "https://www.dropbox.com/s/aydhqtcm7gplbgh/ragatattoo_130201623_845725956265916_5846705320668817025_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Judith13",
+      "url": "https://www.dropbox.com/s/7ii7j75yyel0d07/ragatattoo_207177629_5812284635513499_6159879107359291521_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Gabo69",
+      "url": "https://www.dropbox.com/s/4kzd33mkeiv5h07/gabo_ragatattoo_287640405_788441035899829_3122851654243776033_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo26",
+      "url": "https://www.dropbox.com/s/jmomdcvkizaz3i5/ragatattoo_280781127_106821915315956_8765972376176200786_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo2",
+      "url": "https://www.dropbox.com/s/46hnq8e1u9mbam8/ragatattoo_338972839_1425250238299485_6213185810116940928_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba2",
+      "url": "https://www.dropbox.com/s/zqs3mc8fzqd1x62/ragatattoo_342044068_594082166013518_5779016804402151096_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo31",
+      "url": "https://www.dropbox.com/s/zspx57m3voagmny/ragatattoo_271954124_1044465209617039_6545974167735284479_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor17",
+      "url": "https://www.dropbox.com/s/q3q8yegdwsmkfw6/nmgtattoo_161425038_247893653687111_4685283037407208816_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo57",
+      "url": "https://www.dropbox.com/s/9ubckuq59o4843q/ragatattoo_93118141_164560665011275_1986054712703667258_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo45",
+      "url": "https://www.dropbox.com/s/ls834qhaxi9izwe/ragatattoo_137588709_1447556558959735_8910956241578567686_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo70",
+      "url": "https://www.dropbox.com/s/djeeql7ha4h8uy7/gabo_ragatattoo_280491536_3240787196204629_1823899442384024166_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo52",
+      "url": "https://www.dropbox.com/s/3679mtolxopom7q/ragatattoo_120077051_252818279343784_1686919977766793124_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba3",
+      "url": "https://www.dropbox.com/s/bswsejefx6w6a56/ragatattoo_334603388_586798486829706_2378074478146024203_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Nestor28",
+      "url": "https://www.dropbox.com/s/nmjjzkng5dzqe75/nmgtattoo_61686753_1839651262801228_5518704738358873635_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Nestor11",
+      "url": "https://www.dropbox.com/s/d6fmarz9pkvfh2r/ragatattoo_280194253_715876752947480_1933173215137576077_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Nestor33",
+      "url": "https://www.dropbox.com/s/tr6t8ynpyicg57u/nmgtattoo_53875486_1035717230150204_6265416860965122347_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Nestor2",
+      "url": "https://www.dropbox.com/s/2nkxyjv7tna9uxc/ragatattoo_326025630_532181372226167_9067695145160962633_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Nestor21",
+      "url": "https://www.dropbox.com/s/ivqgkpfjosdphn7/nmgtattoo_87797660_194444428506239_3523611678858422339_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Alba23",
+      "url": "https://www.dropbox.com/s/bhe8bxevhu2trp9/alba_ferrero.tattoo_284501534_428956458664624_8373616090890259136_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Alba15",
+      "url": "https://www.dropbox.com/s/7fvz88qu33y8q00/ragatattoo_206805232_1202557100193889_4881088517223856217_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo73",
+      "url": "https://www.dropbox.com/s/fljq804r75iyat3/gabo_ragatattoo_275539662_1032866060674665_247224319692740072_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo3",
+      "url": "https://www.dropbox.com/s/cltx8ntj7kia8qy/ragatattoo_338249302_1189181041789587_7687588558848199666_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor10",
+      "url": "https://www.dropbox.com/s/i6ctix06owo9fuv/ragatattoo_281961315_4744680645636616_147384568625608035_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo8",
+      "url": "https://www.dropbox.com/s/xe3zm8gmw01qsie/ragatattoo_329764721_5861119637309523_24196160124082899_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo61",
+      "url": "https://www.dropbox.com/s/exjfa4ctduv01jr/gabo_ragatattoo_333722498_902770747538555_2066064735351250240_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor12",
+      "url": "https://www.dropbox.com/s/gy2tk0jtuhpzz8n/ragatattoo_118842198_2776272015949142_7293721271089872800_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo87",
+      "url": "https://www.dropbox.com/s/hmziyehxj5g3hig/gabo_ragatattoo_118767351_643426936557106_7315869695280668774_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo85",
+      "url": "https://www.dropbox.com/s/equrisd0jn97tl5/gabo_ragatattoo_120199873_341696790412309_4815107818520024228_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo66",
+      "url": "https://www.dropbox.com/s/apdgr2hfnv9eryv/gabo_ragatattoo_327802753_1379507199534474_39531032212761100_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo39",
+      "url": "https://www.dropbox.com/s/x7gw8cxbs4lxihq/ragatattoo_191415379_490217385600442_6648511811202248257_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor30",
+      "url": "https://www.dropbox.com/s/2c2stycs6docn9z/nmgtattoo_60316863_395749924365445_3842536768663025673_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Nestor26",
+      "url": "https://www.dropbox.com/s/8daro0haqiev59e/nmgtattoo_73398128_186953149138500_8621751681602781112_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Judith4",
+      "url": "https://www.dropbox.com/s/m2ywqijvdqo1a2h/ragatattoo_318781491_728763135591248_7939220476063598990_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Gabo86",
+      "url": "https://www.dropbox.com/s/equrisd0jn97tl5/gabo_ragatattoo_120199873_341696790412309_4815107818520024228_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor32",
+      "url": "https://www.dropbox.com/s/7w1r91844189tq8/nmgtattoo_59330342_409088019822576_2195807329345987474_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo74",
+      "url": "https://www.dropbox.com/s/dq5n7srklexpqns/gabo_ragatattoo_275280919_498767491968805_6829322197162596820_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo55",
+      "url": "https://www.dropbox.com/s/pdvs208ag5zl193/ragatattoo_97170161_263771064807134_5374148828670662463_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo65",
+      "url": "https://www.dropbox.com/s/m9vyktkadhguv0l/gabo_ragatattoo_329788067_3313654478896043_6193864611364485101_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo63",
+      "url": "https://www.dropbox.com/s/edrjieeyi4g5sx0/gabo_ragatattoo_331361444_6018555031513776_2938581529515748944_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor29",
+      "url": "https://www.dropbox.com/s/wvfzyydavtehxrb/nmgtattoo_60543894_194250528225600_2269976001986222780_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Judith10",
+      "url": "https://www.dropbox.com/s/37i7a6e123zdtow/ragatattoo_225654800_506977843746729_7444636999164521983_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Alba27",
+      "url": "https://www.dropbox.com/s/6q70esi204qi3y9/alba_ferrero.tattoo_119076499_117952850043588_7791146654758839680_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Nestor8",
+      "url": "https://www.dropbox.com/s/ckt8o11dqv0i8w7/ragatattoo_309058925_406392684814426_202357336676827837_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Alba5",
+      "url": "https://www.dropbox.com/s/ylaq1c4bk2raz2i/ragatattoo_331460073_515604707350552_8215723793134919128_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo17",
+      "url": "https://www.dropbox.com/s/cje9e1uqifmnfq9/ragatattoo_312931519_1165866234052066_1261399649276323251_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor20",
+      "url": "https://www.dropbox.com/s/6t25mhf63c9pjlz/nmgtattoo_153344590_1110208136094462_2043812179825520824_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo23",
+      "url": "https://www.dropbox.com/s/0sxae2k3gt2y5lx/ragatattoo_293877933_178720064632458_7570058857315489636_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo56",
+      "url": "https://www.dropbox.com/s/jtqm6kpvcqsntuk/ragatattoo_95297769_163352751807803_745998652471437221_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor4",
+      "url": "https://www.dropbox.com/s/lk0vfvuqkb41kx1/ragatattoo_315884451_1149629998890265_1474782819025421699_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Judith12",
+      "url": "https://www.dropbox.com/s/gnfsnqhpl1x0i5m/ragatattoo_214112105_4666147476729093_781625002071101695_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Gabo16",
+      "url": "https://www.dropbox.com/s/feubn501958006j/ragatattoo_314931065_136972665784042_3957331581285016724_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo77",
+      "url": "https://www.dropbox.com/s/i6viqcsl2x4vkkz/gabo_ragatattoo_247180980_601826464600945_9097134442401471812_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo80",
+      "url": "https://www.dropbox.com/s/s1x3z3grrxcda7v/gabo_ragatattoo_244425734_1249246688873043_6115901250325630434_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba17",
+      "url": "https://www.dropbox.com/s/zuimkrd7r6v7lwz/ragatattoo_176103559_461314085134815_2939747892012836567_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Nestor24",
+      "url": "https://www.dropbox.com/s/h9s2cjfntz8pdv0/nmgtattoo_77316596_505254596740806_1537505193287590802_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Judith9",
+      "url": "https://www.dropbox.com/s/jzwec3wv7j56f5d/ragatattoo_269735240_161186479568969_7835470119123519870_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Gabo5",
+      "url": "https://www.dropbox.com/s/squgyln9t465ptx/ragatattoo_333914347_924845155421988_3307852806194712558_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor7",
+      "url": "https://www.dropbox.com/s/wp9lq0buwu3wgwf/ragatattoo_309489141_155512860442917_1885882495847964345_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo20",
+      "url": "https://www.dropbox.com/s/uq6g0h8irlbntt8/ragatattoo_300555256_8434898183187787_8273915467972364889_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo49",
+      "url": "https://www.dropbox.com/s/i32cviarc4ka701/ragatattoo_123754448_163677102139106_1999016538455851699_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo40",
+      "url": "https://www.dropbox.com/s/w1lv721c470970l/ragatattoo_187374127_517157762620853_3603537156378899385_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor22",
+      "url": "https://www.dropbox.com/s/v8uwlogt4vlrphx/nmgtattoo_83241191_476419699707640_4023223757818844728_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Nestor16",
+      "url": "https://www.dropbox.com/s/1cocfekp0zse5qg/nmgtattoo_161812752_251306586629300_6682735383910711363_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo68",
+      "url": "https://www.dropbox.com/s/mke4x0shfdmsnxk/gabo_ragatattoo_289469545_3278753325691210_2573674111189315615_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo37",
+      "url": "https://www.dropbox.com/s/nm4zgyyrl811ou9/ragatattoo_239515480_200366428667428_6519115537855304300_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Judith5",
+      "url": "https://www.dropbox.com/s/xhi2z6wg2pguew7/ragatattoo_312838440_1188641695396612_2619870255681919422_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Alba20",
+      "url": "https://www.dropbox.com/s/a6byt6gljapt5v2/alba_ferrero.tattoo_295264418_140755071925381_2591398087743982613_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo38",
+      "url": "https://www.dropbox.com/s/32g9xl5eebjotm2/ragatattoo_208759112_273443241202060_5435631951367274214_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo13",
+      "url": "https://www.dropbox.com/s/sekrvf8x7jejq78/ragatattoo_319899934_1160231181264118_488641320936158294_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo62",
+      "url": "https://www.dropbox.com/s/wwtwm1vpt4g8rka/gabo_ragatattoo_333072039_1239196876970658_2118566003728601125_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba10",
+      "url": "https://www.dropbox.com/s/ubxifzo5pamcd68/ragatattoo_317490263_1101886137174679_1916542794190955985_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo21",
+      "url": "https://www.dropbox.com/s/82x5o4j6a2miv5r/ragatattoo_298000787_1890736397961090_6117826470861761998_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo29",
+      "url": "https://www.dropbox.com/s/mlfgc4r14qg9mq1/ragatattoo_273669425_204934805156589_7439629606862816394_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Judith8",
+      "url": "https://www.dropbox.com/s/apayo9bzkb6x2k1/ragatattoo_270186395_648833822800910_3448990591454486564_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Gabo14",
+      "url": "https://www.dropbox.com/s/uz0wic717wrdwks/ragatattoo_318341278_5737332556334096_5953041231696070988_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo53",
+      "url": "https://www.dropbox.com/s/7t7ezr27b0jihso/ragatattoo_119237990_186724916192131_8396052240068875793_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba6",
+      "url": "https://www.dropbox.com/s/wutxleco3kozpwg/ragatattoo_329651231_1549789492189288_7506661869119071133_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Nestor18",
+      "url": "https://www.dropbox.com/s/t4vgbm20ifsp5ly/nmgtattoo_158602926_156040393012872_2700840756041940432_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo58",
+      "url": "https://www.dropbox.com/s/0oivecsvmadjbqp/gabo_ragatattoo_343052173_227509433206403_7348650754222886965_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba1",
+      "url": "https://www.dropbox.com/s/18ovrktpeppss0o/ragatattoo_343680004_947199843291067_1689041177458278519_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo15",
+      "url": "https://www.dropbox.com/s/6w0otxp7l8lk0fe/ragatattoo_317923489_854133342401679_2546560706331649850_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba25",
+      "url": "https://www.dropbox.com/s/ye1lxkgdco34uuy/alba_ferrero.tattoo_243556070_1967927900036155_8910355374350270882_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo72",
+      "url": "https://www.dropbox.com/s/ge11510ow9hu0ot/gabo_ragatattoo_277038611_374028941033307_8114974155766156669_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo28",
+      "url": "https://www.dropbox.com/s/jw294z6tg2pfxaj/ragatattoo_274004671_2602775886521826_2437895868451843009_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor25",
+      "url": "https://www.dropbox.com/s/wcs4jon06s97p8u/nmgtattoo_76727771_122225588913212_7904536307001880725_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo60",
+      "url": "https://www.dropbox.com/s/m4oyudi2q2n1vs0/gabo_ragatattoo_334030102_135399002782640_1993434209703643892_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba13",
+      "url": "https://www.dropbox.com/s/jce8eoh7emzdepq/ragatattoo_271558306_692834988369746_5169887536946622967_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Nestor3",
+      "url": "https://www.dropbox.com/s/zn5rqnkvd18iof1/ragatattoo_317054826_635707131669718_125453688572883820_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Nestor23",
+      "url": "https://www.dropbox.com/s/ikk56pcmz7qmcdd/nmgtattoo_82554478_1380748592098203_8465900599497233706_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Alba21",
+      "url": "https://www.dropbox.com/s/97kw1d6off3m6h2/alba_ferrero.tattoo_289990634_124540560267621_2253313044019647164_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Judith15",
+      "url": "https://www.dropbox.com/s/2co9z2ykepg2tfz/judrings_bodypiercing_347317610_255855826989076_1936391206980195383_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Alba24",
+      "url": "https://www.dropbox.com/s/n9rbl85t17a7gt6/alba_ferrero.tattoo_277289989_342591751171073_7643947081996501334_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo34",
+      "url": "https://www.dropbox.com/s/scchk6mkpxbqljl/ragatattoo_244728470_120254420388807_1094709597045193640_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor31",
+      "url": "https://www.dropbox.com/s/q3d8irwyq3i40zb/nmgtattoo_59997481_2565162316846911_2030266015093090948_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo30",
+      "url": "https://www.dropbox.com/s/x7eebbgdv673s32/ragatattoo_272757592_299693008801256_2069092542902194558_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Alba7",
+      "url": "https://www.dropbox.com/s/sg3hp0t3cp4yp7o/ragatattoo_325316520_216584887445852_2545116212999582047_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Alba Ferrero",
+      "description": "",
+      "tags": [
+        "a"
+      ]
+    },
+    {
+      "title": "Gabo41",
+      "url": "https://www.dropbox.com/s/51o5uavy5b4ru0s/ragatattoo_178691016_936070180459921_253305710333868635_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor15",
+      "url": "https://www.dropbox.com/s/o4v0nx3s069oysx/nmgtattoo_279453845_501619598374592_5439055863170636587_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo48",
+      "url": "https://www.dropbox.com/s/zzptuyug9rd45gz/ragatattoo_125209007_406861070492886_6259763042957500618_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor13",
+      "url": "https://www.dropbox.com/s/ohzy0pj4oafcauc/ragatattoo_117222098_604018630270580_3301877579473596540_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Judith11",
+      "url": "https://www.dropbox.com/s/9didap855nqel7m/ragatattoo_219822941_1190129654799994_4778965572987208508_n.jpg?dl=1",
+      "type": "piercing",
+      "dateAdd": "fecha2",
+      "author": "Judith",
+      "description": "",
+      "tags": [
+        "j"
+      ]
+    },
+    {
+      "title": "Nestor14",
+      "url": "https://www.dropbox.com/s/ui94pn3mqf6407r/ragatattoo_116556252_160675759054991_9153034381118264592_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo33",
+      "url": "https://www.dropbox.com/s/kir6xuyvtnaii7d/ragatattoo_271253430_220154743615218_4041815975304845772_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor27",
+      "url": "https://www.dropbox.com/s/n8rokau8meqv9cm/nmgtattoo_71153600_497129804346788_3373459619902504256_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
+    },
+    {
+      "title": "Gabo4",
+      "url": "https://www.dropbox.com/s/py2671p2c0jhzib/ragatattoo_335571443_5936485839805382_980230434146147412_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo24",
+      "url": "https://www.dropbox.com/s/117jq5o21196u48/ragatattoo_290451181_1487795858331398_7798731160449756100_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Gabo82",
+      "url": "https://www.dropbox.com/s/se0sjla05ih9q65/gabo_ragatattoo_154135564_150867963546993_5111487190240820188_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Gabo Raga",
+      "description": "",
+      "tags": [
+        "g"
+      ]
+    },
+    {
+      "title": "Nestor9",
+      "url": "https://www.dropbox.com/s/05zhppy1u3fy684/ragatattoo_284112724_5083756608411987_7451764019067675209_n.jpg?dl=1",
+      "type": "tattoo",
+      "dateAdd": "fecha2",
+      "author": "Nestor",
+      "description": "",
+      "tags": [
+        "n"
+      ]
     }
   ]
 }

@@ -11,16 +11,18 @@ export const SocialButtons = ({socialLinks}) => {
               {
                 socialLinks.map(socialLink=>{
                   const {link,img} = socialLinksDictionary[socialLink] ?socialLinksDictionary[socialLink] :socialLink
-                  
-                  return <div className="icon" key={Math.random()}>
+                  return img 
+                          ?<div className="icon" key={Math.random()}>
                             <a title={"Social Link"} href={link}  target="_blank">
                                 {<Image
                                     src={img}
-                                    alt={"social link"}
+                                    className='socialLink'
+                                    alt={socialLink}
                                     layout='fill'
                                 />}
                             </a>
                         </div>
+                          :""
                 })
               }
           </>

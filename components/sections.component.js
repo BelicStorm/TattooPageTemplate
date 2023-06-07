@@ -15,7 +15,7 @@ const GalerySection = ({ images }) => {
           center="Arte destacado"
           sub={"Tattoo & Piercing"}
         ></Title>
-        <Galeria images={images} />
+        <Galeria images={images} displayPosts={9} />
         <Button buttonText="Ver Galería" buttonHref="/galeria" />
       </section>
     </>
@@ -24,7 +24,7 @@ const GalerySection = ({ images }) => {
 const AboutUsSection = ({ artists }) => {
   return (
     <div className="container aboutUs" id="sponsors">
-      <Title center="Nuetsro Metodo" />
+      <Title center="Nuestro Método" />
       <section className="policityWorkContainer">
         <div>
           <h2>1. DESCRÍBENOS TU IDEA</h2>
@@ -86,7 +86,7 @@ const ArtistSection = ({ artists }) => {
 const Sponsors = ({ sponsors }) => {
   return (
     <div className="container aboutUs">
-      <Title center="Confían en nosotros" />
+      <Title center="Sponsors que confían en nosotros" />
       <section className="sponsorsContainer">
         {sponsors.map(({name,page,image}) => {
           return <a key={name} href={page}><img src={image}></img></a>
@@ -112,7 +112,10 @@ const ContactSection = () => {
             haveSocialButtons: false,
             socialLinks: undefined
           }}
-          actionButton={{ buttonHref: "/", buttonText: "Ver Ubicación" }}
+          actionButton={{ 
+            buttonHref: "https://www.google.com/maps/dir/raga+tattoo//@38.8236353,-0.6815852,12z/data=!4m8!4m7!1m5!1m1!1s0xd619d561b1cd9eb:0x132f735a4bee74b0!2m2!1d-0.5991837!2d38.8235305!1m0?entry=ttu", 
+            buttonText: "Ver Ubicación" 
+          }}
         />
         <TextSide
           textType="contact"
@@ -123,7 +126,7 @@ const ContactSection = () => {
             haveSocialButtons: false,
             socialLinks: undefined
           }}
-          actionButton={{ buttonHref: "/contacto", buttonText: "Pide Cita" }}
+          actionButton={{ buttonHref: "https://www.instagram.com/ragatattoo", buttonText: "Pide Cita" }}
         />
       </div>
     </section>

@@ -1,40 +1,40 @@
 {
     "artistas":[
-        {"name":"John Doe",
+        {"name":"Gabo Raga",
             "aptitude":{"tattoo":true,"piercing":false},
-            "artistPhoto":"/tatto-test/artist1.jpg",
-            "recomendedWork1":"/tatto-test/2.jpg",
-            "recomendedWork2":"/tatto-test/3.jpg",
-            "description":"Director of brand marketing, with experience managing global teams and multi-million-dollar campaigns. Her background in brand strategy, visual design, and account management inform her mindful but competitive approach.",
-            "social":[{"link":"https://www.facebook.com/RagaTattoo/","img":"/media/facebook.svg"},
-                      {"link":"https://www.instagram.com/ragatattoo/?hl=es","img":"/media/instagram.svg"},
-                      {"link":"https://twitter.com/TwitterDev/","img":"/media/twitter.svg"}]},
-        {"name":"Jane Doe",
+            "artistPhoto":"/tatto-test/gabo.jpg",
+            "recomendedWork1":"https://www.dropbox.com/s/jsp9xczi6rw3c39/ragatattoo_117028214_242709900047839_3398464296209749240_n.jpg?dl=1",
+            "recomendedWork2":"https://www.dropbox.com/s/k6sy6sttujhvc4r/ragatattoo_295929392_3315168442098778_766421802082097531_n.jpg?dl=1",
+            "description":"Gabo Raga, el talentoso fundador y jefazo supremo de nuestro estudio, ha estado creando obras de arte en la piel desde 2012. Su amplia experiencia y versatilidad lo convierten en uno de los tatuadores más destacados de nuestro equipo. Desde el realismo meticuloso hasta el enigmático black work, Gabo domina una amplia gama de estilos con facilidad. Reconocido a nivel nacional, ha sido galardonado en diversas categorías y es especialmente conocido por su destreza en el uso del color y su habilidad para realizar cover ups. Su dedicación y experiencia inspiran confianza en nuestros clientes, asegurando que cada tatuaje sea una expresión única y de calidad.",
+            "social":[
+                {"link":"https://www.instagram.com/gabo_ragatattoo/","img":"/media/instagram.svg"}
+            ]},
+        {"name":"Alba Ferrero",
+            "aptitude":{"tattoo":true,"piercing":false},
+            "artistPhoto":"/tatto-test/alba.jpg",
+            "recomendedWork1":"https://www.dropbox.com/s/t2rzjcos1rqg31u/ragatattoo_265398533_276343434546312_1595330645200179210_n.jpg?dl=1",
+            "recomendedWork2":"https://www.dropbox.com/s/zip7qkadoau0fmp/ragatattoo_287265544_3212589165692817_1740469407114572709_n.jpg?dl=1",
+            "description":"Alba, nuestra joven prometedora todoterreno, es la última incorporación a nuestro equipo. Desde su inicio en 2018, ha demostrado un talento excepcional en una amplia gama de estilos. Ya sea realismo o piezas minimalistas, Alba abraza cada desafío con entusiasmo y no le dice que no a nada. Su atención meticulosa al detalle es evidente en cada uno de sus tatuajes, creando obras de arte impresionantes en la piel. A pesar de su corta trayectoria, Alba ha demostrado un gran potencial y una habilidad innata para plasmar las ideas de los clientes en tatuajes únicos y personalizados. Los clientes confían en ella para llevar sus ideas a la vida con maestría y precisión.",
+            "social":[
+                {"link":"https://www.instagram.com/alba_ferrero.tattoo/","img":"/media/instagram.svg"}
+            ]},
+        {"name":"Nestor",
+            "aptitude":{"tattoo":true,"piercing":false},
+            "artistPhoto":"/tatto-test/nestor.jpg",
+            "recomendedWork1":"https://www.dropbox.com/s/npereb38mwecds1/ragatattoo_311933781_847825686232869_3728665352318281387_n.jpg?dl=1",
+            "recomendedWork2":"https://www.dropbox.com/s/ol7wcribgahqcs5/nmgtattoo_155557105_718433842054208_4661616818158886187_n.jpg?dl=1",
+            "description":"Néstor, nuestro talentoso artista especializado en neotradicional y manga, lleva tatuando desde 2015. Es un maestro del arte en la piel, con una dedicación de varios años perfeccionando su oficio. Su destreza en estilos fineline es excepcional y lo distingue como uno de los mejores en su campo. Con una pasión evidente por la estética japonesa y la fusión de elementos tradicionales y contemporáneos, Néstor crea tatuajes vívidos y detallados que cautivan a los amantes del neotradicional y el manga. Su habilidad para capturar la esencia de los personajes y las historias en su trabajo es verdaderamente impresionante. Los clientes confían en Néstor para obtener piezas únicas y cautivadoras que reflejen su amor por estos estilos artísticos distintivos.",
+            "social":[
+                {"link":"https://www.instagram.com/nmgtattoo/","img":"/media/instagram.svg"}
+            ]},
+        {"name":"Judith",
             "aptitude":{"tattoo":false,"piercing":true},
-            "artistPhoto":"/tatto-test/artist2.jpg",
-            "recomendedWork1":"/tatto-test/1.jpeg",
-            "recomendedWork2":"/tatto-test/3.jpg",
-            "description":"Director of brand marketing, with experience managing global teams and multi-million-dollar campaigns. Her background in brand strategy, visual design, and account management inform her mindful but competitive approach.",
-            "social":[{"link":"https://www.facebook.com/RagaTattoo/","img":"/media/facebook.svg"},
-                {"link":"https://www.instagram.com/ragatattoo/?hl=es","img":"/media/instagram.svg"},
-                {"link":"https://twitter.com/TwitterDev/","img":"/media/twitter.svg"}]},
-        {"name":"Foo Bar",
-            "aptitude":{"tattoo":true,"piercing":true},
-            "artistPhoto":"/tatto-test/artist3.jpeg",
-            "recomendedWork1":"/tatto-test/2.jpg",
-            "recomendedWork2":"/tatto-test/4.jpg",
-            "description":"Director of brand marketing, with experience managing global teams and multi-million-dollar campaigns. Her background in brand strategy, visual design, and account management inform her mindful but competitive approach.",
-            "social":[{"link":"https://www.facebook.com/RagaTattoo/","img":"/media/facebook.svg"},
-                {"link":"https://www.instagram.com/ragatattoo/?hl=es","img":"/media/instagram.svg"},
-                {"link":"https://twitter.com/TwitterDev/","img":"/media/twitter.svg"}]},
-        {"name":"Bar Foo",
-            "aptitude":{"tattoo":true,"piercing":true},
-            "artistPhoto":"/tatto-test/artist2.jpg",
-            "recomendedWork1":"/tatto-test/2.jpg",
-            "recomendedWork2":"/tatto-test/4.jpg",
-            "description":"Director of brand marketing, with experience managing global teams and multi-million-dollar campaigns. Her background in brand strategy, visual design, and account management inform her mindful but competitive approach.",
-            "social":[{"link":"https://www.facebook.com/RagaTattoo/","img":"/media/facebook.svg"},
-                {"link":"https://www.instagram.com/ragatattoo/?hl=es","img":"/media/instagram.svg"},
-                {"link":"https://twitter.com/TwitterDev/","img":"/media/twitter.svg"}]}
+            "artistPhoto":"/tatto-test/judit.jpg",
+            "recomendedWork1":"https://www.dropbox.com/s/0k7v0lewm1ojfsi/ragatattoo_340983638_214746291156385_1264114661048183979_n.jpg?dl=1",
+            "recomendedWork2":"https://www.dropbox.com/s/7ii7j75yyel0d07/ragatattoo_207177629_5812284635513499_6159879107359291521_n.jpg?dl=1",
+            "description":"Judith, nuestra talentosa anilladora y alma de Raga Tattoo, lleva perfeccionando su arte desde 2013. Desde los inicios del estudio, ha sido una figura fundamental en la gestión y organización de nuestro equipo. Su amplia experiencia y reconocido talento la han posicionado como una experta en el mundo del piercing a nivel nacional. Judith cuenta con la formación necesaria para crear complejas composiciones de piercings y también para reparar heridas e intervenciones mal realizadas. Su habilidad y conocimiento le permiten ofrecer soluciones precisas y seguras a nuestros clientes. Su atención meticulosa a los detalles y su enfoque profesional garantizan que cada experiencia en Raga Tattoo sea satisfactoria y de calidad. Judith es una pieza fundamental en nuestro equipo, brindando confianza y excelencia en cada servicio que ofrece.",
+            "social":[
+                {"link":"https://www.instagram.com/judrings_bodypiercing/","img":"/media/instagram.svg"}
+            ]}
     ]
 }

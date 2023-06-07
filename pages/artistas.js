@@ -9,11 +9,13 @@ export default function ArtistsPage({homeArtists}) {
           center="Artistas del estudio"
           sub={"Tattoo & Piercing"}
       ></Title>
+       <div className="ArtistCardsContainer">
         {
           homeArtists.map((artist,index)=>{
             return <ArtistPresentation key={index} data={artist}></ArtistPresentation>
           })
         }
+       </div>
       </section>
     </Layout>
   );

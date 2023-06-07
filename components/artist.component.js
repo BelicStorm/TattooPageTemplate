@@ -44,11 +44,9 @@ export const ArtistPresentation = ({data, imageSide})=>{
     <>
       <div className="ArtistPresentation-container">
         <div className="ArtistPresentation-image">
-        <Image
+        <img
           src={artistPhoto}
           alt="Picture of the author"
-          layout='fill'
-          objectFit='contain'
         />
         </div>
         <div className="ArtistPresentation-text">
@@ -60,6 +58,7 @@ export const ArtistPresentation = ({data, imageSide})=>{
             <div className="ArtistPresentation-actions">
               <Button buttonText="Ver Trabajos" buttonHref={`/artista/${name}`} />
               <div className="social-icons">
+                <span>Redes Sociales:</span>
                 <SocialButtons socialLinks={social} iconClassName="artistSocial"/>
               </div>
             </div>

@@ -23,18 +23,33 @@
 }
 
 /* Artist Presentation */
-.ArtistPresentation-container{
-  width: 80%;
-  height: 500px;
+.ArtistCardsContainer{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;    
+  flex-flow: column wrap;
+  grid-gap: 12px;
+  gap: 12px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
 }
+.ArtistPresentation-container img{
+  width:100%;
+  max-width: 300px;
+  border-radius: 12px;
+}
+.ArtistPresentation-container{
+  display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    grid-gap: 12px;
+    gap: 12px;
+}
+
 .ArtistPresentation-image{
   position: relative;
-  width: 45%;
-  min-width: 250px;
-  height: auto;
+    /* width: 100%; */
+    max-width: 330px;
+    height: auto;
  
 }
 .ArtistPresentation-text{
@@ -43,25 +58,28 @@
   justify-content: center;
   padding: 20px;
   align-items: center;
-  max-width: 45%;
+  max-width: 600px;
+  background: #0000004f;
+  border-radius: 12px;
+
 }
 .ArtistPresentation-text h2{
   font-family: "Kanit", sans-serif;
   font-weight: 300;
-  color:white;
+  color:var(--principal-color);
   margin-bottom: -20px;
   font-size: 30px;
 }
 .ArtistPresentation-text h3{
   font-family: "Kanit", sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   color:white;
   font-size: 17px;
 }
 .ArtistPresentation-text p{
-  font-weight: 100;
+  font-weight: 200;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   text-align: inherit;
 }
 .ArtistPresentation-actions {
@@ -69,11 +87,14 @@
   gap: 5em;
 }
 .ArtistPresentation-actions .social-icons{
-  width: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  font-size: 18px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  color: white;
 }
 .ArtistPresentation-actions .social-icons .icon{
   opacity: 1;
@@ -90,11 +111,10 @@
     min-height: 250px;
   }
   .ArtistPresentation-text{
-    padding: 0px;
     align-items: center;
     width: 70%;
     max-width: 70%;
-    height: 55%;
+    justify-content: flex-start;
   }
 }
 @media (max-width: 900px) {
@@ -142,12 +162,14 @@
 .card0 {
   background: center center no-repeat;
   background-size: cover;
+  border: 1px solid transparent;
+  transition: 1s;
 }
 .card0:hover {
-  background: left center no-repeat #0000007a;
+  background: center left no-repeat #000000c4;
   background-blend-mode: saturation;
-  background-size: 600px;
-  border: 1px solid #f80000;
+  background-size: 400px;
+  border: 1px solid var(--principal-color);
 }
 .card0:hover h2,
 .card0:hover h3 {
@@ -174,7 +196,7 @@
   transition: opacity 1s;
   font-family: "Kanit", sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 2px;
   color: #ffffff;
   margin: 20px;
@@ -224,8 +246,8 @@
   .card0 {
     background: left center no-repeat #0000007a;
     background-blend-mode: saturation;
-    background-size: 600px;
-    border: 1px solid #f80000;
+    background-size: 400px;
+    border: 1px solid var(--principal-color);
   }
   .card0 h2,
   .card0 h3 {
@@ -245,9 +267,14 @@
 
 /*About Us*/
 .policityWorkContainer {
-  display: grid;
-  grid-template-columns: repeat(2, 0.23fr);
-  gap: 32px;
+      display: grid;
+    grid-template-columns: repeat(2, 0.23fr);
+    grid-gap: 43px;
+    gap: 43px;
+    /* background: linear-gradient(85deg, rgba(130,55,75,1) 0%, rgba(122,55,44,1) 39%, rgba(58,115,98,1) 100%); */
+    background: #00000094;
+    padding: 2rem;
+    border-radius: 12px;
 }
 .policityWorkContainer div {
   width: 300px;

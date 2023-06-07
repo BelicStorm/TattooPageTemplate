@@ -5,7 +5,7 @@
     min-width: 275px;
     height: 100vh;
     overflow: hidden;
-    color: #f80000;
+    color: var(--principal-color);
     font-family: sans-serif;
     background-image: url(https://media.giphy.com/media/f6UWsiU56kjWVYrsLo/giphy.gif);
     background-size: cover;
@@ -111,8 +111,8 @@
     padding: 0.8em 1em;
     margin-right: 1em;
     margin-bottom: 1em;
-    border: 1px solid #f80000;
-    color: #F80000;
+    border: 1px solid var(--principal-color);
+    color: var(--principal-color);
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
@@ -129,7 +129,7 @@
   }
   .ForgottenRealm a:before {
     content: "";
-    background: #F80000;
+    background: var(--principal-color);
     height: 100%;
     width: 100%;
     position: absolute;

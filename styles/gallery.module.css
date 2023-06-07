@@ -1,8 +1,11 @@
+
 .ArtContainer {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  grid-gap: 12px;
+  gap: 3rem;
 }
 .ArtContainer .title {
   margin-bottom: 0px;
@@ -22,7 +25,7 @@
   position: sticky;
   top: 4.5em;
   z-index: 99999;
-  background: #000;
+  background: #00000024;
   margin-bottom: 3em;
 }
 
@@ -35,18 +38,16 @@
   grid-gap: 2rem;
   justify-content: center;
   margin-top: -2em;
-  /* margin-bottom: 2em; */
 }
 .container .gallery .gallery-item,
 .container-page .gallery .gallery-item {
-  /* flex: 0 0 400px; */
-  height: 350px;
-  width: 350px;
+  height: 100%;
+  width: 100%;
   max-height: 600px;
   max-width: 400px;
   margin: -12px;
   box-shadow: 0px 0px 5px rgba(2, 2, 2, 0.5);
-  border: 1px solid #910000;
+  border: 1px solid transparent;
   overflow: hidden;
   position: relative;
 }
@@ -84,7 +85,7 @@
 }
 .container .gallery .gallery-item:hover,
 .container-page .gallery .gallery-item:hover {
-  border: 1px solid #f80000;
+  border: 1px solid var(--principal-color);
 }
 .container .gallery .gallery-item:hover .gallery-image,
 .container-page .gallery .gallery-item:hover .gallery-image {
@@ -118,7 +119,7 @@
 @media only screen and (hover: none) and (pointer: coarse) {
   .container .gallery .gallery-item,
   .container-page .gallery .gallery-item {
-    border: 1px solid #f80000;
+    border: 1px solid var(--principal-color);
   }
   .container .gallery .gallery-item .gallery-image,
   .container-page .gallery .gallery-item .gallery-image {
@@ -130,3 +131,79 @@
     bottom: 0;
   }
 }
+
+/* @-webkit-keyframes animate {
+  0% {
+    top: -3px;
+  }
+  50% {
+    top: 3px;
+  }
+  100% {
+    top: -3px;
+  }
+}
+@keyframes animate {
+  0% {
+    top: -3px;
+  }
+  50% {
+    top: 3px;
+  }
+  100% {
+    top: -3px;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.wrapper .main-content {
+  width: 100%;
+  min-width: 300px;
+  height: auto;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: stretch;
+}
+.wrapper .main-content .column {
+  min-width: 300px;
+  flex: 1;
+  height: 100%;
+  padding-top: 25px;
+}
+.wrapper .main-content .column-one .image {
+  width: calc(100% - 30px);
+  margin: 15px 15px 15px 0;
+}
+.wrapper .main-content .column-two .image {
+  width: calc(100% - 30px);
+  margin: 15px 15px 15px 0;
+}
+.wrapper .main-content .column-three .image {
+  width: calc(100% - 30px);
+  margin: 15px 15px 15px 0;
+}
+
+@media (max-width: 590px) {
+  .wrapper {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .main-content {
+    width: calc(100% - 30px) !important;
+  }
+} */
