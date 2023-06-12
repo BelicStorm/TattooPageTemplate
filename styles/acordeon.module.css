@@ -30,7 +30,7 @@
     /* Icon */
   }
   .acordeon-tab-label:hover {
-    background: #12000078;
+    background: #000;
   }
   .acordeon-tab-label::after {
     content: "❯";

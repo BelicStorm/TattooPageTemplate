@@ -1,0 +1,28 @@
+{
+    "videos": [
+        {
+            "id": "a1",
+            "title":"EP 1 Gabo Arreglame El Tattoo 'COVER PECHO' Part 1 by: CINK VISUALS",
+            "url": "https://www.youtube.com/embed/8F-kbEzuk0c",
+            "duration": "12:48"
+        },
+        {
+            "id": "a2",
+            "title":"EP 2 Gabo Arreglame El Tattoo 'COVER PECHO' Part 2 by: CINK VISUALS",
+            "url": "https://www.youtube.com/embed/Ctgh-vTtqmA",
+            "duration": "15:41"
+        },
+        {
+            "id": "a3",
+            "title": "EP 3 Gabo Arreglame El Tattoo 'LA ROSA' By: Cink Visuals",
+            "url": "https://www.youtube.com/embed/hrRO8sV1qJU",
+            "duration": "11:50"
+        },
+        {
+            "id": "a4",
+            "title": "EP 4 Gabo Arreglame El Tattoo 'SAMURAI' By: Cink Visuals",
+            "url": "https://www.youtube.com/embed/oSuRrr99J8A",
+            "duration": "9:49"
+        }
+    ]
+}

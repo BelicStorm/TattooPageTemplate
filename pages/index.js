@@ -11,7 +11,7 @@ import {
 
 export default function Home({ homeImages, homeArtists, sponsors }) {
   return (
-    <Layout actual="home" metaData={{}}>
+    <Layout actual="home" metaData={{metaTitle:"Raga Tattoo"}}>
        <div className="main-wrapper">
      
         <GalerySection images={homeImages} />

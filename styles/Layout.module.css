@@ -64,7 +64,7 @@
   font-weight: 400;
   line-height: inherit;
   background-color: var(--principal-color);
-  color: #120000;
+  color: #000;
   text-transform: uppercase;
   text-decoration: none;
   padding: 8px;
@@ -75,7 +75,7 @@
 .header .navbar .menu-item a:hover {
   content: "";
   background-color: var(--principal-color);
-  color: #120000;
+  color: #000;
   /* display: block; */
 }
 /* Social Icons */
@@ -212,7 +212,7 @@
   .header .navbar .menu-item a:hover {
     border-bottom: 0;
     display: inline;
-    background-color: #120000;
+    background-color: #000;
     color: var(--principal-color);
   }
   .header .navbar .active a{
@@ -226,15 +226,13 @@
     height: 11em;
     z-index: -1;
     display: none;
-    background: #120000;
+    background: #000;
   }
   .header .navbar .navbar-wrapper .menu {
     display: flex;
     flex-direction: column;
-    /* position: absolute;
-      top: 50%;
-      width: 100%;
-      transform: translateY(-50%); */
+    height: 100%;
+    margin: 0;
   }
   .header .navbar .navbar-wrapper .menu-item {
     padding-bottom: 1rem;
@@ -333,7 +331,7 @@
     position: fixed;
     bottom: 0em;
     display: flex;
-    background: #120000;
+    background: #000;
     width: 100%;
     justify-content: center;
   }

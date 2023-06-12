@@ -9,7 +9,7 @@ const Menu = ({ active, metaData }) => {
   const menu = [
     { sectionName: "galeria", showedName: "Galería", path: "/galeria" },
     { sectionName: "artistas", showedName: "Artistas", path: "/artistas" },
-    // { sectionName: "contacto", showedName: "Contacto", path: "/contacto" },
+    { sectionName: "videos", showedName: "Vídeos", path: "/videos" },
     // { sectionName: "tienda", showedName: "Tienda", path: "/" }
   ];
 

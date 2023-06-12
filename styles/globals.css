@@ -9,6 +9,7 @@
 @import "./acordeon.module.css";
 @import "./modal.module.css";
 @import "./404.module.css";
+@import "./video.module.css";
 /*  */
 :root{
   --principal-color: #f6c200;
