@@ -18,15 +18,6 @@
             "social":[
                 {"link":"https://www.instagram.com/alba_ferrero.tattoo/","img":"/media/instagram.svg"}
             ]},
-        {"name":"Nestor",
-            "aptitude":{"tattoo":true,"piercing":false},
-            "artistPhoto":"/tatto-test/nestor.jpg",
-            "recomendedWork1":"https://www.dropbox.com/s/npereb38mwecds1/ragatattoo_311933781_847825686232869_3728665352318281387_n.jpg?dl=1",
-            "recomendedWork2":"https://www.dropbox.com/s/ol7wcribgahqcs5/nmgtattoo_155557105_718433842054208_4661616818158886187_n.jpg?dl=1",
-            "description":"Néstor, nuestro talentoso artista especializado en neotradicional y manga, lleva tatuando desde 2015. Es un maestro del arte en la piel, con una dedicación de varios años perfeccionando su oficio. Su destreza en estilos fineline es excepcional y lo distingue como uno de los mejores en su campo. Con una pasión evidente por la estética japonesa y la fusión de elementos tradicionales y contemporáneos, Néstor crea tatuajes vívidos y detallados que cautivan a los amantes del neotradicional y el manga. Su habilidad para capturar la esencia de los personajes y las historias en su trabajo es verdaderamente impresionante. Los clientes confían en Néstor para obtener piezas únicas y cautivadoras que reflejen su amor por estos estilos artísticos distintivos.",
-            "social":[
-                {"link":"https://www.instagram.com/nmgtattoo/","img":"/media/instagram.svg"}
-            ]},
         {"name":"Judith",
             "aptitude":{"tattoo":false,"piercing":true},
             "artistPhoto":"/tatto-test/judit.jpg",
