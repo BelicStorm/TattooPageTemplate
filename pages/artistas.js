@@ -7,7 +7,7 @@ export default function ArtistsPage({homeArtists}) {
       <section className="ArtContainer container-page">
       <Title
           center="Artistas del estudio"
-          sub={"Tattoo & Piercing"}
+          sub={"Tattoo"}
       ></Title>
        <div className="ArtistCardsContainer">
         {

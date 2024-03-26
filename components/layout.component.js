@@ -36,9 +36,9 @@ const Menu = ({ active, metaData }) => {
         <title>{metaTitle ?metaTitle :"Raga Tattoo"}</title>
         <meta name="description" content={
           !metaDesc 
-            ?`Somos un estudio con larga trayectoria de Tattoo y Piercing en Ontinyent. 
+            ?`Somos un estudio con larga trayectoria de Tattoo en Ontinyent. 
               Disponemos de excelentes profesionales con diferentes estilos para cumplir con tus expectativas. 
-              También disponemos de un profesional dedicado en exclusiva a los piercing. - Teléfono: 669 56 44 58 - Dirección: Av. d'Albaida, 12, 46870 Ontinyent, Valencia` 
+              - Teléfono: 669 56 44 58 - Dirección: Av. d'Albaida, 12, 46870 Ontinyent, Valencia` 
             :metaDesc} />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
@@ -85,9 +85,8 @@ const Footer = () => {
         <div className="footer-items">
           <h2>Raga Tattoo</h2>
           <p>
-              Somos un estudio con larga trayectoria de Tattoo y Piercing en Ontinyent. 
+              Somos un estudio con larga trayectoria de Tattoo en Ontinyent. 
               Disponemos de excelentes profesionales con diferentes estilos para cumplir con tus expectativas.
-              También disponemos de un profesional dedicado en exclusiva a los piercing.
           </p>
         </div>
         <div className="footer-items">
