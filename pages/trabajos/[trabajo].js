@@ -3,6 +3,7 @@ import Layout from "../../components/layout.component";
 import { Title } from "../../components/title.component";
 import { Galeria } from "../../components/galeria.component";
 import React from "react";
+import { Button } from "../../components/button.component";
 export default function ArtistDetails({ work, relatedWork }) {
     const { title, url, type, dateAdd, author, tags, description } = work
     const initialPostList = 6; // Number of articles to display initially
@@ -33,9 +34,12 @@ export default function ArtistDetails({ work, relatedWork }) {
                     <div className="col">
                         <div className="img"><img src={url} alt={title} width="" height="" /></div>
                         <p>
-                            Created By:
-                            <Link href={{ pathname: `/artista/${author}` }}><a>{author}</a></Link>
+                            Autor:
+                            <Link href={{ pathname: `/artista/${author}` }}>{author}</Link>
                         </p>
+                        <div className="social-icons">
+                            <Button buttonText={"Pidele Cita"} buttonHref={""} isExternal={true} />
+                        </div>
                     </div>
                 </div>
                 {

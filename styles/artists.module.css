@@ -1,8 +1,36 @@
+.prevTextContainer{
+  max-width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.prevTextContainer p{
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  color:white;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+.prevTextContainer .buttonContainer{
+  display: flex;
+  gap: 16px;
+}
+@media screen and (max-width: 600px) {
+  .prevTextContainer{
+    max-width: 90%;
+  }
+  .prevTextContainer p{
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+}
 .aboutUs {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .artistsContainer {
   display: grid;
   grid-template-columns: repeat(2, 0.23fr);
@@ -13,7 +41,7 @@
 }
 
 .artistContainer {
- /*  max-height: 800px;
+  /*  max-height: 800px;
   max-width: 1280px;
   min-height: 400px; */
   display: flex;
@@ -23,7 +51,7 @@
 }
 
 /* Artist Presentation */
-.ArtistCardsContainer{
+.ArtistCardsContainer {
   display: flex;
   flex-flow: column wrap;
   grid-gap: 12px;
@@ -32,27 +60,30 @@
   justify-content: center;
   align-items: center;
 }
-.ArtistPresentation-container img{
-  width:100%;
+
+.ArtistPresentation-container img {
+  width: 100%;
   max-width: 300px;
   border-radius: 12px;
 }
-.ArtistPresentation-container{
+
+.ArtistPresentation-container {
   display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    grid-gap: 12px;
-    gap: 12px;
+  flex-flow: row wrap;
+  justify-content: center;
+  grid-gap: 12px;
+  gap: 12px;
 }
 
-.ArtistPresentation-image{
+.ArtistPresentation-image {
   position: relative;
-    /* width: 100%; */
-    max-width: 330px;
-    height: auto;
- 
+  /* width: 100%; */
+  max-width: 330px;
+  height: auto;
+
 }
-.ArtistPresentation-text{
+
+.ArtistPresentation-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,30 +94,37 @@
   border-radius: 12px;
 
 }
-.ArtistPresentation-text h2{
+
+.ArtistPresentation-text h2 {
   font-family: "Kanit", sans-serif;
   font-weight: 300;
-  color:var(--principal-color);
+  color: var(--principal-color);
   margin-bottom: -20px;
   font-size: 30px;
 }
-.ArtistPresentation-text h3{
+
+.ArtistPresentation-text h3 {
   font-family: "Kanit", sans-serif;
   font-weight: 100;
-  color:white;
+  color: white;
   font-size: 17px;
 }
-.ArtistPresentation-text p{
+
+.ArtistPresentation-text p {
   font-weight: 200;
   color: white;
   font-size: 18px;
   text-align: inherit;
 }
+
 .ArtistPresentation-actions {
   display: flex;
-  gap: 5em;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
 }
-.ArtistPresentation-actions .social-icons{
+
+.ArtistPresentation-actions .social-icons {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -96,40 +134,49 @@
   font-weight: 200;
   color: white;
 }
-.ArtistPresentation-actions .social-icons .icon{
+
+.ArtistPresentation-actions .social-icons .icon {
   opacity: 1;
 }
+
 @media (max-width: 1015px) {
-  .ArtistPresentation-container{
+  .ArtistPresentation-container {
     margin-bottom: 4em;
     width: 70%;
     max-width: 70%;
     justify-content: center;
   }
-  .ArtistPresentation-image{
+
+  .ArtistPresentation-image {
     min-width: 250px;
     min-height: 250px;
   }
-  .ArtistPresentation-text{
+
+  .ArtistPresentation-text {
     align-items: center;
     width: 70%;
     max-width: 70%;
     justify-content: flex-start;
   }
 }
+
 @media (max-width: 900px) {
-  .ArtistPresentation-container{
+  .ArtistPresentation-container {
     width: 90%;
     max-width: 90%;
   }
-  .ArtistPresentation-text{
+
+  .ArtistPresentation-text {
     width: 90%;
     max-width: 90%;
   }
 }
+
 @media (max-width: 375px) {
   .ArtistPresentation-actions {
-    gap: 3em;
+    gap: 0px;
+    display: flex;
+    flex-wrap: wrap-reverse;
   }
 }
 
@@ -165,22 +212,27 @@
   border: 1px solid transparent;
   transition: 1s;
 }
+
 .card0:hover {
   background: center left no-repeat #000000c4;
   background-blend-mode: saturation;
   background-size: 400px;
   border: 1px solid var(--principal-color);
 }
+
 .card0:hover h2,
 .card0:hover h3 {
   opacity: 1;
 }
+
 .card0:hover .artistSocial {
   opacity: 1;
 }
+
 .card0:hover .icons .icon {
   opacity: 1;
 }
+
 .card0 .button2 {
   font-size: 16px;
   padding: 10px;
@@ -188,6 +240,7 @@
   transition: opacity 1s;
   width: inherit;
 }
+
 .card0:hover .button2 {
   opacity: 1;
 }
@@ -203,6 +256,7 @@
   opacity: 0;
   transition: opacity 1s;
 }
+
 .artistContainer h3 {
   font-family: "Kanit", sans-serif;
   font-weight: 500;
@@ -217,18 +271,22 @@
   width: 100%;
   text-align: right;
 }
+
 .artistSocial {
   opacity: 0;
   transition: opacity 1s;
 }
+
 .icons .icon {
   opacity: 0;
   transition: opacity 1s;
 }
+
 .artistSocial {
   width: 70px;
   height: 70px;
 }
+
 .icons {
   position: absolute;
   fill: #fff;
@@ -249,13 +307,16 @@
     background-size: 400px;
     border: 1px solid var(--principal-color);
   }
+
   .card0 h2,
   .card0 h3 {
     opacity: 1;
   }
+
   .card0 .artistSocial {
     opacity: 1;
   }
+
   .card0 .button2 {
     opacity: 1;
   }
@@ -267,29 +328,33 @@
 
 /*About Us*/
 .policityWorkContainer {
-      display: grid;
-    grid-template-columns: repeat(2, 0.23fr);
-    grid-gap: 43px;
-    gap: 43px;
-    /* background: linear-gradient(85deg, rgba(130,55,75,1) 0%, rgba(122,55,44,1) 39%, rgba(58,115,98,1) 100%); */
-    background: #00000094;
-    padding: 2rem;
-    border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, 0.23fr);
+  grid-gap: 43px;
+  gap: 43px;
+  /* background: linear-gradient(85deg, rgba(130,55,75,1) 0%, rgba(122,55,44,1) 39%, rgba(58,115,98,1) 100%); */
+  background: #00000094;
+  padding: 2rem;
+  border-radius: 12px;
 }
+
 .policityWorkContainer div {
   width: 300px;
   height: auto;
 }
+
 .policityWorkContainer h2 {
   font-family: "Kanit", sans-serif;
   font-weight: 300;
   color: white;
 }
+
 .policityWorkContainer p {
   text-align: left;
   font-size: 14px;
   font-weight: 100;
 }
+
 /*Artist description*/
 
 @media (max-width: 1330px) {
@@ -297,10 +362,12 @@
     grid-template-columns: repeat(2, 0.23fr);
   }
 }
+
 @media (max-width: 765px) {
   .artistsContainer {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .policityWorkContainer {
     grid-template-columns: repeat(1, 1fr);
   }

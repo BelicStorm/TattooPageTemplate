@@ -1,14 +1,12 @@
-import { ArtistCard } from "./artist.component";
+import { ArtistCard, ArtistPresentation } from "./artist.component";
 import { Button } from "./button.component";
 import { Galeria } from "./galeria.component";
-import { SectionTitle } from "./sectionTitle.component";
 import { TextSide } from "./sides.component";
 import { Title } from "./title.component";
 
 const GalerySection = ({ images }) => {
   return (
     <>
-      <SectionTitle image={"HomeImage"} />
       <section className="container featuredArtContainer">
         <Title
           upper={"Te recomendamos"}
@@ -71,17 +69,31 @@ const AboutUsSection = ({ artists }) => {
     </div>
   );
 };
-const ArtistSection = ({ artists }) => {
+const ArtistSection = ({ homeArtists }) => {
   return (
-    <div className="container aboutUs">
-      <Title center="Artistas del estudio" />
-      <section className="artistsContainer">
-        {artists.map((artist) => {
-          return <ArtistCard key={Math.random()} data={artist} />;
-        })}
-      </section>
-      <Button buttonText="Más sobre nosotros" buttonHref="/artistas" />
-    </div>
+    <section className="ArtContainer container-page">
+      <Title
+        center="Pedir Cita"
+      ></Title>
+      <div className="prevTextContainer">
+        <p>
+          Seguimos evolucionando para ofrecerte lo mejor. Ahora somos un estudio privado, diseñado para brindarte una experiencia más personalizada y cómoda.
+          Para garantizar una atención personalizada, trabajamos solo con cita previa, ya sea para consultas o sesiones de tatuaje. Puedes contactarnos a través de WhatsApp o Instagram para agendar tu visita.
+          Gracias por ser parte de esta nueva etapa.
+        </p>
+        <div className="buttonContainer">
+          <Button buttonHref={"https://www.instagram.com/ragatattoo/"} buttonText={"Estudio"} isExternal={true}/>
+          <Button isExternal={true} buttonHref={"https://www.google.com/maps/dir/raga+tattoo//@38.8236353,-0.6815852,12z/data=!4m8!4m7!1m5!1m1!1s0xd619d561b1cd9eb:0x132f735a4bee74b0!2m2!1d-0.5991837!2d38.8235305!1m0?entry=ttu"} buttonText={"Ubicación"} />
+        </div>
+      </div>
+      <div className="ArtistCardsContainer">
+        {
+          homeArtists.map((artist, index) => {
+            return <ArtistPresentation key={index} data={artist}></ArtistPresentation>
+          })
+        }
+      </div>
+    </section>
   );
 };
 const Sponsors = ({ sponsors }) => {
@@ -89,11 +101,11 @@ const Sponsors = ({ sponsors }) => {
     <div className="container aboutUs">
       <Title center="Sponsors que confían en nosotros" />
       <section className="sponsorsContainer">
-        {sponsors.map(({name,page,image}) => {
-          return <a key={name} href={page}><img src={image}></img></a>
+        {sponsors.map(({ name, page, image }) => {
+          return <a key={name} href={page} target="_blank"><img src={image}></img></a>
         })}
       </section>
-      
+
     </div>
   );
 };
@@ -113,9 +125,10 @@ const ContactSection = () => {
             haveSocialButtons: false,
             socialLinks: undefined
           }}
-          actionButton={{ 
-            buttonHref: "https://www.google.com/maps/dir/raga+tattoo//@38.8236353,-0.6815852,12z/data=!4m8!4m7!1m5!1m1!1s0xd619d561b1cd9eb:0x132f735a4bee74b0!2m2!1d-0.5991837!2d38.8235305!1m0?entry=ttu", 
-            buttonText: "Ver Ubicación" 
+          actionButton={{
+            buttonHref: "https://www.google.com/maps/dir/raga+tattoo//@38.8236353,-0.6815852,12z/data=!4m8!4m7!1m5!1m1!1s0xd619d561b1cd9eb:0x132f735a4bee74b0!2m2!1d-0.5991837!2d38.8235305!1m0?entry=ttu",
+            buttonText: "Ver Ubicación",
+            isExternal:true
           }}
         />
         <TextSide
@@ -127,10 +140,10 @@ const ContactSection = () => {
             haveSocialButtons: false,
             socialLinks: undefined
           }}
-          actionButton={{ buttonHref: "https://www.instagram.com/ragatattoo", buttonText: "Pide Cita" }}
+          actionButton={{ buttonHref: "/artistas", buttonText: "Pide Cita" }}
         />
       </div>
     </section>
   );
 };
-export { GalerySection, ArtistSection, ContactSection, AboutUsSection,Sponsors };
+export { GalerySection, ArtistSection, ContactSection, AboutUsSection, Sponsors };

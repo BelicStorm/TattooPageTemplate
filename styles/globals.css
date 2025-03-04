@@ -30,7 +30,7 @@ body {
   display: flex;
   scrollbar-color: var(--principal-color);
   flex-flow: column;
-  gap: 3rem;
+  /* gap: 3rem; */
   
 }
 .divider {
@@ -133,7 +133,7 @@ body {
   background-color: var(--black);
   padding: 16px;
   text-decoration: none;
-  color: #fff;
+  color: #fff !important;
   font-size: 20px;
   cursor: pointer;
   max-width: -moz-max-content;
@@ -146,7 +146,7 @@ body {
   background-color: var(--principal-color);
   color: black;
   font-family: "Kanit", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 .upperHeading {
   font-family: "Kanit", sans-serif;

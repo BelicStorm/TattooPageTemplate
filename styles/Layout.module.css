@@ -20,7 +20,7 @@
   align-items: center;
   justify-content: space-between;
   max-width: 111rem;
-  padding: 0rem 2rem 0em 2em;
+  padding: 0rem 2rem 0em 1em;
 }
 .header .navbar .brand {
   margin-top: 0.5em;
@@ -113,6 +113,12 @@
 	padding: 10px 20px;
 	box-sizing: border-box;
 	color: #fff;
+}
+
+.footer-items .button2 {
+  font-size: small;
+  font-weight: 500;
+  padding: 8px;
 }
 
 .footer-items p {

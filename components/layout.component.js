@@ -2,13 +2,14 @@ import Link from "next/dist/client/link";
 import Head from "next/head";
 import Image from "next/image";
 import { SocialButtons } from "./socialButtons.component";
+import { Button } from "./button.component";
 
 const Menu = ({ active, metaData }) => {
   const {metaTitle,metaDesc} = metaData
 
   const menu = [
     { sectionName: "galeria", showedName: "Galería", path: "/galeria" },
-    { sectionName: "artistas", showedName: "Artistas", path: "/artistas" },
+    { sectionName: "artistas", showedName: "Artistas - Pedir Cita", path: "/artistas" },
     { sectionName: "videos", showedName: "Vídeos", path: "/videos" },
     // { sectionName: "tienda", showedName: "Tienda", path: "/" }
   ];
@@ -93,9 +94,10 @@ const Footer = () => {
           <h3>Contact us</h3>
             <div>
               <p>Dirección: Av. d'Albaida, 12, 46870 Ontinyent, Valencia</p>
-              <p>669 56 44 58</p>
+               
             </div> 
             <div style={{display:"flex", width:"100%", justifyContent:"center"}}>
+              <Button buttonText="Pedir Cita" buttonHref={"/artistas"} isExternal={true} />
               <SocialButtons socialLinks={["Facebook", "Instagram", "Twitter"]} />
             </div>
         </div>

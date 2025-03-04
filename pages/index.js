@@ -1,5 +1,6 @@
 import Layout from "../components/layout.component";
 import { getImages } from "../utils/image.utils";
+import { SectionTitle } from "../components/sectionTitle.component";
 import {
   ArtistSection,
   ContactSection,
@@ -7,20 +8,22 @@ import {
   AboutUsSection,
   Sponsors
 } from "../components/sections.component";
+import { ArtistPresentation } from "../components/artist.component";
+import { Title } from "../components/title.component";
 // import {Title} from "../components/title.component"
 
 export default function Home({ homeImages, homeArtists, sponsors }) {
   return (
-    <Layout actual="home" metaData={{metaTitle:"Raga Tattoo"}}>
-       <div className="main-wrapper">
-     
+    <Layout actual="home" metaData={{ metaTitle: "Raga Tattoo" }}>
+      <div className="main-wrapper">
+        <SectionTitle image={"HomeImage"} />
         <GalerySection images={homeImages} />
-        <ArtistSection artists={homeArtists} />
+        <ArtistSection homeArtists={homeArtists} />
         <Sponsors sponsors={sponsors} />
         <AboutUsSection />
         <ContactSection />
-       </div>
-     </Layout>
+      </div>
+    </Layout>
     // <div style={{
     //   "display": "flex",
     //   "width": "100%",
@@ -44,7 +47,7 @@ export default function Home({ homeImages, homeArtists, sponsors }) {
         <SocialButtons socialLinks={["Facebook", "Instagram"] }/>
       </div>
     </div> */
-     
+
   )
 }
 
@@ -64,7 +67,7 @@ export async function getServerSideProps(context) {
     props: {
       homeImages: images,
       homeArtists: artistas,
-      sponsors:sponsors
+      sponsors: sponsors
     } // will be passed to the page component as props
   };
 }

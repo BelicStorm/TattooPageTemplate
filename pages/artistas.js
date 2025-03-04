@@ -1,22 +1,10 @@
 import Layout from "../components/layout.component";
-import { Title } from "../components/title.component";
-import { ArtistPresentation } from "../components/artist.component";
+import { AboutUsSection, ArtistSection } from "../components/sections.component";
 export default function ArtistsPage({homeArtists}) {
   return (
     <Layout actual="artistas" metaData={{metaTitle:"Raga Tattoo - Artistas"}}>
-      <section className="ArtContainer container-page">
-      <Title
-          center="Artistas del estudio"
-          sub={"Tattoo"}
-      ></Title>
-       <div className="ArtistCardsContainer">
-        {
-          homeArtists.map((artist,index)=>{
-            return <ArtistPresentation key={index} data={artist}></ArtistPresentation>
-          })
-        }
-       </div>
-      </section>
+      <ArtistSection homeArtists={homeArtists}/>
+      <AboutUsSection/>
     </Layout>
   );
 }

@@ -1,6 +1,5 @@
 import { SocialButtons } from "./socialButtons.component";
 import { Button } from "./button.component";
-import Image from 'next/image'
 
 export const ArtistCard = ({ data }) => {
   const { name, aptitude, artistPhoto, social } = data;
@@ -57,10 +56,12 @@ export const ArtistPresentation = ({data, imageSide})=>{
             </div>
             <div className="ArtistPresentation-actions">
               <Button buttonText="Ver Trabajos" buttonHref={`/artista/${name}`} />
-              <div className="social-icons">
+              <Button buttonText="Pedir Cita" buttonHref={social[0].link} isExternal={true} />
+              <p style={{width:"auto"}}>{social[1].link}</p>
+              {/* <div className="social-icons">
                 <span>Redes Sociales:</span>
                 <SocialButtons socialLinks={social} iconClassName="artistSocial"/>
-              </div>
+              </div> */}
             </div>
             
         </div>

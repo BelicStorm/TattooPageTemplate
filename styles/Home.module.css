@@ -2,6 +2,7 @@
     /* background: url('/media/hero-logo.png'); */
     filter: drop-shadow(14px 13px 21px #000);
 }
+
 .BigImage {
     display: flex;
     flex-flow: column;
@@ -15,22 +16,34 @@
     /* background-position: center; */
     /* background-repeat: no-repeat; */
 }
-.homeTitleSectionButtonGroup{
+@media (max-width: 375px) {
+    .BigImage {
+        height: 54vh;
+    }
+  }
+.homeTitleSectionButtonGroup {
     display: flex;
     flex-flow: row nowrap;
-    gap: 12px;
+    grid-gap: 12px;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.homeTitleSectionButtonGroup .button2{
+
+.homeTitleSectionButtonGroup .button2 {
     margin: 0px 0px 1rem 0px;
 }
-.BigImage img{
+
+.BigImage img {
     width: 100%;
     max-width: 1220px;
 }
+
 .homeSection {
     width: 100%;
     min-height: 600px;
 }
+
 .sectionTitle {
     width: 100%;
     height: 100%;
@@ -46,7 +59,8 @@
     justify-content: center;
     align-items: center;
 }
-.featuredArtContainer{
+
+.featuredArtContainer {
     display: flex;
     justify-content: center;
     flex-direction: column;

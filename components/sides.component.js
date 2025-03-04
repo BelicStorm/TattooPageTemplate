@@ -19,7 +19,7 @@ const ImageSide = ({ center, left, right}) => {
 const TextSide = ({textType,title,description,social,actionButton}) => {
     const {haveSocialButtons, socialLinks} = social
     const {upper, center, sub} = title
-    const {buttonText, buttonHref} = actionButton
+    const {buttonText, buttonHref, isExternal} = actionButton
     return <div className="side textSide">
                 <Title upper={upper} center={center} sub={sub}></Title> 
                 <div className={`${textType}Content`}>
@@ -27,7 +27,7 @@ const TextSide = ({textType,title,description,social,actionButton}) => {
                     <p>{description}</p>
                 </div>
                 <div className={`${textType}Actions`}>
-                    <Button buttonText={buttonText} buttonHref={buttonHref}/>
+                    <Button buttonText={buttonText} buttonHref={buttonHref} isExternal={isExternal}/>
                     {
                     haveSocialButtons
                         ? <div className={`${textType}-Icons-Wrapper`}>

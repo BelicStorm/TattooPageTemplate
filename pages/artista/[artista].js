@@ -1,9 +1,8 @@
 import React from "react";
 import { Galeria } from "../../components/galeria.component";
 import Layout from "../../components/layout.component";
-import { SocialButtons } from "../../components/socialButtons.component";
 import { Title } from "../../components/title.component";
-import { getImages, imageReg } from "../../utils/image.utils";
+import { Button } from "../../components/button.component";
 export default function ArtistDetails({homeArtists,images}) {
 
   const initialPostList = 6; // Number of articles to display initially
@@ -38,7 +37,9 @@ export default function ArtistDetails({homeArtists,images}) {
               <h3>Sobre mí</h3>
               <p>{description}</p>
               <div className="social-icons">
-                <SocialButtons socialLinks={social} iconClassName="artistSocial"/>
+                <Button buttonText={"Pide Cita"} buttonHref={social[0].link} isExternal={true}/>
+                <p style={{width:"auto"}}>{social[1].link}</p>
+                {/* <SocialButtons socialLinks={social} iconClassName="artistSocial"/> */}
               </div>
             </div>
         </div>
